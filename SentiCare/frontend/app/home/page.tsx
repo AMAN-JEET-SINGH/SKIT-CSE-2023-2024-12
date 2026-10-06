@@ -96,11 +96,6 @@ const initialTasks = [
    CONTEXT
 ========================================================= */
 
-
-/* =========================================================
-   CONTEXT
-========================================================= */
-
 const TaskContext = createContext(null);
 
 function TaskProvider({ children }) {
