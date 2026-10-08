@@ -34,7 +34,7 @@ jobs:
       - name: Generate Weekly PDF Report
         run: |
           python generate_report.py weekly
-
+          
       - name: Move PDF and Commit
         run: |
           set -e
@@ -55,6 +55,6 @@ jobs:
           git commit -m "docs: archive Form-3 weekly progress report [skip ci]"
 
           git fetch origin main
-          git rebase origin/main
+          git -c rebase.autoStash=true rebase origin/main
 
           git push origin HEAD:main
