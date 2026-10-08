@@ -1,0 +1,73 @@
+{
+  "journal_id": "20261008_225803_3ebc91fb",
+  "timestamp": "2026-10-08T17:28:11.590869",
+  "privacy_mode": "anonymized",
+  "text_length": 2,
+  "text_statistics": {
+    "total_tokens_emotion": 3,
+    "chunks_emotion": 1,
+    "chunks_depression": 1,
+    "chunking_applied": false
+  },
+  "emotion_analysis": {
+    "dominant_emotion": "neutral",
+    "confidence": 0.907663881778717,
+    "all_emotions": {
+      "anger": 0.006930106319487095,
+      "disgust": 0.006872530560940504,
+      "fear": 0.0037808921188116074,
+      "joy": 0.0032553302589803934,
+      "neutral": 0.907663881778717,
+      "sadness": 0.0094546964392066,
+      "surprise": 0.06204262375831604
+    },
+    "chunks_analyzed": 1,
+    "total_tokens": 3,
+    "chunking_applied": false,
+    "chunk_distributions": [
+      {
+        "anger": 0.006930106319487095,
+        "disgust": 0.006872530560940504,
+        "fear": 0.0037808921188116074,
+        "joy": 0.0032553302589803934,
+        "neutral": 0.907663881778717,
+        "sadness": 0.0094546964392066,
+        "surprise": 0.06204262375831604
+      }
+    ]
+  },
+  "depression_analysis": {
+    "depression_level": "not depression",
+    "confidence": 0.9530986547470093,
+    "severity": 0,
+    "all_scores": {
+      "severe": 0.005533762741833925,
+      "moderate": 0.04136766120791435,
+      "not depression": 0.9530986547470093
+    },
+    "chunks_analyzed": 1,
+    "total_tokens": 3,
+    "chunking_applied": false,
+    "chunk_distributions": [
+      {
+        "severe": 0.005533762741833925,
+        "moderate": 0.04136766120791435,
+        "not depression": 0.9530986547470093
+      }
+    ]
+  },
+  "llm_assessment": {
+    "mental_health_score": 90,
+    "depression_score": 10,
+    "anxiety_score": 10,
+    "stress_score": 10,
+    "risk_level": "low",
+    "confidence": 0.95,
+    "key_indicators": [],
+    "recommendations": [
+      "You should continue to express yourself openly.",
+      "Consider engaging in more detailed journaling to explore your feelings further."
+    ],
+    "emotional_journey": "You began with a brief, neutral greeting and maintained a calm, neutral tone throughout the entry."
+  }
+}

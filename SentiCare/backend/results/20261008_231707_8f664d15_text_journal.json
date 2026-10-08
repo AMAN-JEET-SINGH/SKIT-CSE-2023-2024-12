@@ -1,0 +1,80 @@
+{
+  "journal_id": "20261008_231707_8f664d15",
+  "timestamp": "2026-10-08T17:47:10.436595",
+  "privacy_mode": "anonymized",
+  "text_length": 52,
+  "text_statistics": {
+    "total_tokens_emotion": 14,
+    "chunks_emotion": 1,
+    "chunks_depression": 1,
+    "chunking_applied": false
+  },
+  "emotion_analysis": {
+    "dominant_emotion": "sadness",
+    "confidence": 0.7845365405082703,
+    "all_emotions": {
+      "anger": 0.18924471735954285,
+      "disgust": 0.0018865559250116348,
+      "fear": 0.0012703891843557358,
+      "joy": 0.018323242664337158,
+      "neutral": 0.001981438836082816,
+      "sadness": 0.7845365405082703,
+      "surprise": 0.0027570987585932016
+    },
+    "chunks_analyzed": 1,
+    "total_tokens": 14,
+    "chunking_applied": false,
+    "chunk_distributions": [
+      {
+        "anger": 0.18924471735954285,
+        "disgust": 0.0018865559250116348,
+        "fear": 0.0012703891843557358,
+        "joy": 0.018323242664337158,
+        "neutral": 0.001981438836082816,
+        "sadness": 0.7845365405082703,
+        "surprise": 0.0027570987585932016
+      }
+    ]
+  },
+  "depression_analysis": {
+    "depression_level": "moderate",
+    "confidence": 0.7971562147140503,
+    "severity": 5,
+    "all_scores": {
+      "severe": 0.0574948713183403,
+      "moderate": 0.7971562147140503,
+      "not depression": 0.1453489363193512
+    },
+    "chunks_analyzed": 1,
+    "total_tokens": 14,
+    "chunking_applied": false,
+    "chunk_distributions": [
+      {
+        "severe": 0.0574948713183403,
+        "moderate": 0.7971562147140503,
+        "not depression": 0.1453489363193512
+      }
+    ]
+  },
+  "llm_assessment": {
+    "mental_health_score": 20,
+    "depression_score": 70,
+    "anxiety_score": 30,
+    "stress_score": 40,
+    "risk_level": "critical",
+    "confidence": 0.9,
+    "key_indicators": [
+      "suicidal ideation",
+      "self-hatred",
+      "low self-worth"
+    ],
+    "recommendations": [
+      "You should reach out to a mental health professional immediately.",
+      "You should consider calling emergency services if you feel unsafe.",
+      "You might find it helpful to talk to a trusted friend or family member.",
+      "You could use crisis hotlines such as 988 in the US.",
+      "You might benefit from therapy or counseling to address these feelings."
+    ],
+    "emotional_journey": "The entry reflects a single, intense expression of sadness and self-hate, with no shift across the text. The emotional tone remains consistently negative, indicating a persistent depressive state and suicidal ideation."
+  }
+}

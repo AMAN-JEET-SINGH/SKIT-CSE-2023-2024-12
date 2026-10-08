@@ -1,0 +1,127 @@
+{
+  "video_path": "uploads/20261008_224255_6a3b8853.webm",
+  "video_emotion": {
+    "video_info": {
+      "path": "uploads/20261008_224255_6a3b8853.webm",
+      "fps": 1000.0,
+      "duration_seconds": 10.81,
+      "total_frames": 10810,
+      "interval_seconds": 5,
+      "frame_skip": 2,
+      "optimization": "Processed 1/2 frames for 2x speedup"
+    },
+    "emotion_labels": [
+      "sad",
+      "disgust",
+      "angry",
+      "neutral",
+      "fear",
+      "surprise",
+      "happy"
+    ],
+    "intervals": [],
+    "summary": {}
+  },
+  "transcript": {
+    "text": "Okay.",
+    "words": [
+      {
+        "word": "okay",
+        "start": 3.04,
+        "end": 3.54
+      }
+    ],
+    "duration": 3.54,
+    "confidence": 0.9638672
+  },
+  "audio_emotion": {
+    "emotion": "neutral",
+    "confidence": 0.7682530879974365,
+    "all_emotions": {
+      "neutral": 0.7682530879974365,
+      "happy": 1.4850805030164338e-08,
+      "sad": 4.432836675505314e-08,
+      "angry": 0.2317468822002411
+    },
+    "model_used": "speechbrain_wav2vec2_iemocap",
+    "accuracy": "78.7%"
+  },
+  "text_analysis": {
+    "emotion": {
+      "dominant_emotion": "neutral",
+      "confidence": 0.5348882675170898,
+      "all_emotions": {
+        "anger": 0.1991477608680725,
+        "disgust": 0.2063346803188324,
+        "fear": 0.016400916501879692,
+        "joy": 0.016663527116179466,
+        "neutral": 0.5348882675170898,
+        "sadness": 0.024636780843138695,
+        "surprise": 0.0019280379638075829
+      }
+    },
+    "depression": {
+      "depression_level": "not depression",
+      "confidence": 0.7359704971313477,
+      "severity": 0,
+      "all_scores": {
+        "severe": 0.03319289907813072,
+        "moderate": 0.23083658516407013,
+        "not depression": 0.7359704971313477
+      }
+    },
+    "llm_analysis": {
+      "emotions": [
+        "neutral",
+        "indifferent"
+      ],
+      "sentiment": "neutral",
+      "key_phrases": [],
+      "severity": 0
+    },
+    "anonymized_text": "Okay."
+  },
+  "privacy_mode": "anonymized",
+  "llm_final_assessment": {
+    "overall_mental_health_score": 80,
+    "depression_score": 20,
+    "anxiety_score": 30,
+    "stress_score": 25,
+    "risk_level": "low",
+    "confidence": 0.75,
+    "key_indicators": [
+      "high neutral emotion across modalities",
+      "moderate anger and disgust in text",
+      "audio anger presence"
+    ],
+    "recommendations": [
+      "You should maintain regular social interactions to reinforce positive neutral affect",
+      "Consider practicing brief mindfulness or breathing exercises to reduce any underlying irritability",
+      "Try journaling or expressive writing to explore the sources of anger and disgust",
+      "You may benefit from engaging in a light physical activity routine to help balance mood"
+    ],
+    "areas_of_concern": [
+      "potential irritability or frustration",
+      "low engagement or motivation indicated by brief transcript"
+    ],
+    "positive_indicators": [
+      "high neutral emotion suggesting emotional stability",
+      "low depression probability",
+      "absence of severe negative emotions"
+    ],
+    "distribution_insights": "The audio classifier shows a strong neutral dominance (0.77) but a significant angry component (0.23), indicating a mixed affective state. The text classifier distributes probability across neutral (0.53), anger (0.20), and disgust (0.21), reflecting a subtle but noticeable negative emotional tone despite overall neutrality. The depression classifier strongly favors the \"not depression\" class (0.74) with only 0.23 probability for moderate depression, suggesting low depressive risk. The combined distributions reveal a pattern of emotional neutrality with underlying irritability, warranting monitoring but not immediate clinical concern."
+  },
+  "summary": {
+    "mental_health_score": 80,
+    "depression_score": 20,
+    "anxiety_score": 30,
+    "stress_score": 25,
+    "risk_level": "low",
+    "confidence": 0.75,
+    "video_emotion": "neutral",
+    "audio_emotion": "neutral",
+    "text_emotion": "neutral",
+    "depression_level": "not depression",
+    "total_intervals": 0
+  }
+}

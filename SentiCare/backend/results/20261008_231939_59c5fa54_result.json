@@ -1,0 +1,252 @@
+{
+  "video_path": "uploads/20261008_231939_59c5fa54.webm",
+  "video_emotion": {
+    "video_info": {
+      "path": "uploads/20261008_231939_59c5fa54.webm",
+      "fps": 1000.0,
+      "duration_seconds": 13.382,
+      "total_frames": 13382,
+      "interval_seconds": 5,
+      "frame_skip": 2,
+      "optimization": "Processed 1/2 frames for 2x speedup"
+    },
+    "emotion_labels": [
+      "sad",
+      "disgust",
+      "angry",
+      "neutral",
+      "fear",
+      "surprise",
+      "happy"
+    ],
+    "intervals": [],
+    "summary": {}
+  },
+  "transcript": {
+    "text": "I hate, my boss. What to do? I want to kill him. Like, he's, like, giving so much work and all these kind of things.",
+    "words": [
+      {
+        "word": "i",
+        "start": 2.48,
+        "end": 2.56
+      },
+      {
+        "word": "hate",
+        "start": 2.56,
+        "end": 3.06
+      },
+      {
+        "word": "my",
+        "start": 3.6,
+        "end": 4.1
+      },
+      {
+        "word": "boss",
+        "start": 4.24,
+        "end": 4.74
+      },
+      {
+        "word": "what",
+        "start": 4.96,
+        "end": 5.2
+      },
+      {
+        "word": "to",
+        "start": 5.2,
+        "end": 5.3599997
+      },
+      {
+        "word": "do",
+        "start": 5.3599997,
+        "end": 5.6
+      },
+      {
+        "word": "i",
+        "start": 5.6,
+        "end": 5.7599998
+      },
+      {
+        "word": "want",
+        "start": 5.7599998,
+        "end": 6.0
+      },
+      {
+        "word": "to",
+        "start": 6.0,
+        "end": 6.08
+      },
+      {
+        "word": "kill",
+        "start": 6.08,
+        "end": 6.3199997
+      },
+      {
+        "word": "him",
+        "start": 6.3199997,
+        "end": 6.8199997
+      },
+      {
+        "word": "like",
+        "start": 6.8799996,
+        "end": 7.3599997
+      },
+      {
+        "word": "he's",
+        "start": 7.44,
+        "end": 7.94
+      },
+      {
+        "word": "like",
+        "start": 8.88,
+        "end": 9.38
+      },
+      {
+        "word": "giving",
+        "start": 9.84,
+        "end": 10.32
+      },
+      {
+        "word": "so",
+        "start": 10.32,
+        "end": 10.48
+      },
+      {
+        "word": "much",
+        "start": 10.48,
+        "end": 10.719999
+      },
+      {
+        "word": "work",
+        "start": 10.719999,
+        "end": 11.04
+      },
+      {
+        "word": "and",
+        "start": 11.04,
+        "end": 11.28
+      },
+      {
+        "word": "all",
+        "start": 11.28,
+        "end": 11.679999
+      },
+      {
+        "word": "these",
+        "start": 11.679999,
+        "end": 11.92
+      },
+      {
+        "word": "kind",
+        "start": 11.92,
+        "end": 12.16
+      },
+      {
+        "word": "of",
+        "start": 12.16,
+        "end": 12.32
+      },
+      {
+        "word": "things",
+        "start": 12.32,
+        "end": 12.82
+      }
+    ],
+    "duration": 12.82,
+    "confidence": 0.9970703
+  },
+  "audio_emotion": {
+    "emotion": "happy",
+    "confidence": 0.9957612156867981,
+    "all_emotions": {
+      "neutral": 0.004126868210732937,
+      "happy": 9.689889702713117e-05,
+      "sad": 0.9957612156867981,
+      "angry": 1.5018210433481727e-05
+    },
+    "model_used": "speechbrain_wav2vec2_iemocap",
+    "accuracy": "78.7%"
+  },
+  "text_analysis": {
+    "emotion": {
+      "dominant_emotion": "anger",
+      "confidence": 0.7119005918502808,
+      "all_emotions": {
+        "anger": 0.7119005918502808,
+        "disgust": 0.24338297545909882,
+        "fear": 0.008790689520537853,
+        "joy": 0.0020184810273349285,
+        "neutral": 0.011809209361672401,
+        "sadness": 0.018046356737613678,
+        "surprise": 0.00405171699821949
+      }
+    },
+    "depression": {
+      "depression_level": "not depression",
+      "confidence": 0.7595058679580688,
+      "severity": 0,
+      "all_scores": {
+        "severe": 0.007674509193748236,
+        "moderate": 0.23281961679458618,
+        "not depression": 0.7595058679580688
+      }
+    },
+    "llm_analysis": {
+      "emotions": [
+        "anger",
+        "hopelessness"
+      ],
+      "sentiment": "negative",
+      "key_phrases": [
+        "I hate my boss",
+        "I want to kill him",
+        "giving so much work"
+      ],
+      "severity": 4
+    },
+    "anonymized_text": "I hate, my boss. What to do? I want to kill him. Like, he's, like, giving so much work and all these kind of things."
+  },
+  "privacy_mode": "anonymized",
+  "llm_final_assessment": {
+    "overall_mental_health_score": 60,
+    "depression_score": 23,
+    "anxiety_score": 3,
+    "stress_score": 96,
+    "risk_level": "high",
+    "confidence": 0.82,
+    "key_indicators": [
+      "suicidal ideation",
+      "anger",
+      "moderate depression",
+      "high stress"
+    ],
+    "recommendations": [
+      "You should seek immediate professional help, such as contacting a mental health crisis line or visiting an emergency department if you feel unsafe.",
+      "You should consider speaking with a licensed therapist or counselor to address your anger and workplace stress.",
+      "You should try to practice grounding techniques, such as deep breathing or mindfulness, to reduce acute stress and anxiety.",
+      "You should reach out to a trusted friend or family member to share how you\u2019re feeling and ask for support.",
+      "You should avoid making any drastic decisions or actions that could harm yourself or others."
+    ],
+    "areas_of_concern": [
+      "suicidal thoughts",
+      "anger towards boss",
+      "moderate depression"
+    ],
+    "positive_indicators": [
+      "none"
+    ],
+    "distribution_insights": "Audio shows overwhelming sadness (99.6%) with negligible other emotions, indicating a strong affective response to stressors. Text emotion distribution is dominated by anger (71.2%) and disgust (24.3%), with minimal fear or joy, suggesting intense frustration and potential hostility. Depression classifier indicates a 23.3% probability of moderate depression and 7.7% severe, while 75.9% probability of no depression, reflecting uncertainty. The combined high anger, moderate depression, and high stress scores point to a mixed emotional state with significant risk of self-harm. Confidence in the dominant predictions is high (~82%) due to the sharp peaks in audio and text distributions, but the presence of multiple emotional peaks (anger and disgust) signals internal conflict and potential for escalation."
+  },
+  "summary": {
+    "mental_health_score": 60,
+    "depression_score": 23,
+    "anxiety_score": 3,
+    "stress_score": 96,
+    "risk_level": "high",
+    "confidence": 0.82,
+    "video_emotion": "neutral",
+    "audio_emotion": "happy",
+    "text_emotion": "anger",
+    "depression_level": "not depression",
+    "total_intervals": 0
+  }
+}

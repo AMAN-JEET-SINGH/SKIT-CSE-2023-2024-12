@@ -1,0 +1,13 @@
+{
+  "session_id": "12a49ece-5017-43db-9ac8-99786878e6d9",
+  "created_at": "2026-10-08T16:53:59.824299",
+  "last_updated": "2026-10-08T16:54:03.215409",
+  "message_count": 1,
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-10-08T16:54:03.215400"
+    }
+  ]
+}

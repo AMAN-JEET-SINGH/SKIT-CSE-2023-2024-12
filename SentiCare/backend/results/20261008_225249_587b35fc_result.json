@@ -1,0 +1,129 @@
+{
+  "video_path": "uploads/20261008_225249_587b35fc.webm",
+  "video_emotion": {
+    "video_info": {
+      "path": "uploads/20261008_225249_587b35fc.webm",
+      "fps": 1000.0,
+      "duration_seconds": 10.81,
+      "total_frames": 10810,
+      "interval_seconds": 5,
+      "frame_skip": 2,
+      "optimization": "Processed 1/2 frames for 2x speedup"
+    },
+    "emotion_labels": [
+      "sad",
+      "disgust",
+      "angry",
+      "neutral",
+      "fear",
+      "surprise",
+      "happy"
+    ],
+    "intervals": [],
+    "summary": {}
+  },
+  "transcript": {
+    "text": "Okay.",
+    "words": [
+      {
+        "word": "okay",
+        "start": 3.12,
+        "end": 3.62
+      }
+    ],
+    "duration": 3.62,
+    "confidence": 0.9506836
+  },
+  "audio_emotion": {
+    "emotion": "neutral",
+    "confidence": 0.768247127532959,
+    "all_emotions": {
+      "neutral": 0.768247127532959,
+      "happy": 1.4850831675516929e-08,
+      "sad": 4.432844491475407e-08,
+      "angry": 0.23175281286239624
+    },
+    "model_used": "speechbrain_wav2vec2_iemocap",
+    "accuracy": "78.7%"
+  },
+  "text_analysis": {
+    "emotion": {
+      "dominant_emotion": "neutral",
+      "confidence": 0.5348882675170898,
+      "all_emotions": {
+        "anger": 0.1991477608680725,
+        "disgust": 0.2063346803188324,
+        "fear": 0.016400916501879692,
+        "joy": 0.016663527116179466,
+        "neutral": 0.5348882675170898,
+        "sadness": 0.024636780843138695,
+        "surprise": 0.0019280379638075829
+      }
+    },
+    "depression": {
+      "depression_level": "not depression",
+      "confidence": 0.7359704971313477,
+      "severity": 0,
+      "all_scores": {
+        "severe": 0.03319289907813072,
+        "moderate": 0.23083658516407013,
+        "not depression": 0.7359704971313477
+      }
+    },
+    "llm_analysis": {
+      "emotions": [
+        "neutral",
+        "indifferent"
+      ],
+      "sentiment": "neutral",
+      "key_phrases": [
+        "Okay"
+      ],
+      "severity": 1
+    },
+    "anonymized_text": "Okay."
+  },
+  "privacy_mode": "anonymized",
+  "llm_final_assessment": {
+    "overall_mental_health_score": 70,
+    "depression_score": 23,
+    "anxiety_score": 12,
+    "stress_score": 35,
+    "risk_level": "moderate",
+    "confidence": 0.85,
+    "key_indicators": [
+      "high anger (0.23 audio, 0.20 text)",
+      "high disgust (0.21 text)",
+      "moderate depression risk (0.23)"
+    ],
+    "recommendations": [
+      "You should consider speaking with a mental health professional to explore the sources of anger and disgust",
+      "You might find it helpful to practice grounding or breathing exercises when you notice rising frustration",
+      "Try keeping a brief daily mood journal to track how often you feel neutral versus angry or disgusted"
+    ],
+    "areas_of_concern": [
+      "anger and disgust expression",
+      "moderate depression probability",
+      "potential stress from unresolved frustration"
+    ],
+    "positive_indicators": [
+      "neutral emotion dominates (0.77 audio, 0.53 text)",
+      "low sadness (0.025)",
+      "low fear (0.016)"
+    ],
+    "distribution_insights": "The probability distributions reveal a mixed emotional state: while neutral dominates, significant portions of the audio and text classifiers assign high probabilities to anger and disgust, indicating underlying tension. The depression classifier shows a moderate risk but still leans toward no depression. The overall confidence is high because the dominant classes (neutral, anger, disgust) have clear probabilities, yet the presence of multiple strong emotions suggests some uncertainty in the exact emotional state."
+  },
+  "summary": {
+    "mental_health_score": 70,
+    "depression_score": 23,
+    "anxiety_score": 12,
+    "stress_score": 35,
+    "risk_level": "moderate",
+    "confidence": 0.85,
+    "video_emotion": "neutral",
+    "audio_emotion": "neutral",
+    "text_emotion": "neutral",
+    "depression_level": "not depression",
+    "total_intervals": 0
+  }
+}

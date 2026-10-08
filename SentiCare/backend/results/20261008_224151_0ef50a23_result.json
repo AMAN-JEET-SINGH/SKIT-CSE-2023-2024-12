@@ -1,0 +1,153 @@
+{
+  "video_path": "uploads/20261008_224151_0ef50a23.webm",
+  "video_emotion": {
+    "video_info": {
+      "path": "uploads/20261008_224151_0ef50a23.webm",
+      "fps": 60.0,
+      "duration_seconds": 12.233333333333333,
+      "total_frames": 734,
+      "interval_seconds": 5,
+      "frame_skip": 2,
+      "optimization": "Processed 1/2 frames for 2x speedup"
+    },
+    "emotion_labels": [
+      "sad",
+      "disgust",
+      "angry",
+      "neutral",
+      "fear",
+      "surprise",
+      "happy"
+    ],
+    "intervals": [
+      {
+        "interval_number": 1,
+        "start_time": 0.0,
+        "end_time": 5,
+        "frames_processed": 300,
+        "frames_sampled": 150,
+        "frames_with_face": 149,
+        "face_detection_rate": 0.993,
+        "emotion_scores": {
+          "sad": 15.75,
+          "disgust": 0.7,
+          "angry": 15.22,
+          "neutral": 9.75,
+          "fear": 54.27,
+          "surprise": 1.19,
+          "happy": 2.45
+        },
+        "dominant_emotion": "fear",
+        "detections_count": 149
+      }
+    ],
+    "summary": {
+      "total_intervals": 1,
+      "average_emotion_scores": {
+        "sad": 15.75,
+        "disgust": 0.7,
+        "angry": 15.22,
+        "neutral": 9.75,
+        "fear": 54.27,
+        "surprise": 1.19,
+        "happy": 2.45
+      },
+      "overall_dominant_emotion": "fear"
+    }
+  },
+  "transcript": {
+    "text": "",
+    "words": [],
+    "duration": 0.0,
+    "confidence": 0.0
+  },
+  "audio_emotion": {
+    "emotion": "angry",
+    "confidence": 0.999910831451416,
+    "all_emotions": {
+      "neutral": 4.55788140243385e-05,
+      "happy": 0.999910831451416,
+      "sad": 4.359142985776998e-05,
+      "angry": 3.087879119068049e-10
+    },
+    "model_used": "speechbrain_wav2vec2_iemocap",
+    "accuracy": "78.7%"
+  },
+  "text_analysis": {
+    "emotion": {
+      "dominant_emotion": "neutral",
+      "confidence": 0.5494773983955383,
+      "all_emotions": {
+        "anger": 0.06413351744413376,
+        "disgust": 0.1040065661072731,
+        "fear": 0.05136270821094513,
+        "joy": 0.04056433215737343,
+        "neutral": 0.5494773983955383,
+        "sadness": 0.11169009655714035,
+        "surprise": 0.07876540720462799
+      }
+    },
+    "depression": {
+      "depression_level": "not depression",
+      "confidence": 0.5571501851081848,
+      "severity": 0,
+      "all_scores": {
+        "severe": 0.1638140082359314,
+        "moderate": 0.2790358364582062,
+        "not depression": 0.5571501851081848
+      }
+    },
+    "llm_analysis": {
+      "emotions": [],
+      "sentiment": "neutral",
+      "key_phrases": [],
+      "severity": 0
+    },
+    "anonymized_text": ""
+  },
+  "privacy_mode": "anonymized",
+  "llm_final_assessment": {
+    "overall_mental_health_score": 55,
+    "depression_score": 30,
+    "anxiety_score": 80,
+    "stress_score": 55,
+    "risk_level": "moderate",
+    "confidence": 0.85,
+    "key_indicators": [
+      "high fear in video",
+      "moderate depression probability",
+      "mismatch between video and audio emotions"
+    ],
+    "recommendations": [
+      "You should consider monitoring your emotional responses, especially the intense fear you displayed in the video.",
+      "You might find it helpful to engage in grounding or relaxation techniques to reduce anxiety.",
+      "You could benefit from speaking with a mental health professional to explore the reasons behind the fear and sadness you experience.",
+      "You should keep a daily mood journal to track changes over time and identify patterns."
+    ],
+    "areas_of_concern": [
+      "intense fear",
+      "moderate sadness and disgust",
+      "potential anxiety",
+      "moderate depression risk"
+    ],
+    "positive_indicators": [
+      "high happiness probability in audio",
+      "neutral dominant emotion in text",
+      "no severe depression detected"
+    ],
+    "distribution_insights": "The video shows a perfect confidence in fear (1.0), indicating a very strong anxiety signal. The audio, however, is overwhelmingly happy (0.9999), suggesting a positive affect that contradicts the video. Text analysis is more mixed, with neutral dominating but noticeable sadness, disgust, and fear components. This mismatch across modalities highlights uncertainty and suggests that the individual may experience fluctuating emotional states or that the video context (e.g., a scary scene) triggers fear while overall mood remains neutral. The depression classifier shows a moderate probability of depression (0.279) and a smaller severe probability (0.164), but the majority probability is for no depression (0.557). The overall confidence is high for video and audio but lower for text, leading to an overall confidence of about 0.85. The combined scores point to a moderate risk level, with anxiety and fear being the most prominent concerns, while happiness and lack of severe depression provide some positive context."
+  },
+  "summary": {
+    "mental_health_score": 55,
+    "depression_score": 30,
+    "anxiety_score": 80,
+    "stress_score": 55,
+    "risk_level": "moderate",
+    "confidence": 0.85,
+    "video_emotion": "fear",
+    "audio_emotion": "angry",
+    "text_emotion": "neutral",
+    "depression_level": "not depression",
+    "total_intervals": 1
+  }
+}

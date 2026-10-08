@@ -1,0 +1,2302 @@
+[
+  {
+    "id": 1,
+    "category": "Depression",
+    "question": "I found it hard to wind down.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Depression",
+    "question": "I felt that life was meaningless.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Depression",
+    "question": "I couldn’t seem to experience any positive feeling at all.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Depression",
+    "question": "I found it difficult to work up the initiative to do things.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Depression",
+    "question": "I felt down-hearted and blue.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Depression",
+    "question": "I lost interest in activities I usually enjoy.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Depression",
+    "question": "I felt I wasn’t worth much as a person.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Depression",
+    "question": "I had difficulty concentrating on things.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Depression",
+    "question": "I felt that I had nothing to look forward to.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Depression",
+    "question": "I felt that life was not worthwhile.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Depression",
+    "question": "I experienced a loss of energy or fatigue.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Depression",
+    "question": "I found it hard to be enthusiastic about anything.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "category": "Depression",
+    "question": "I had trouble sleeping or staying asleep.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "category": "Depression",
+    "question": "I felt I was moving or speaking more slowly than usual.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Depression",
+    "question": "I felt hopeless about the future.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Depression",
+    "question": "I found myself crying for no reason.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Depression",
+    "question": "I felt that my life was empty.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "category": "Depression",
+    "question": "I felt lonely even when with others.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "category": "Depression",
+    "question": "I experienced changes in appetite or weight.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "category": "Depression",
+    "question": "I felt guilty about things that happened in the past.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "category": "Depression",
+    "question": "I had thoughts that life is not worth living.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "category": "Depression",
+    "question": "I felt that people around me would be better off if I were not here.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "category": "Depression",
+    "question": "I found it difficult to feel pleasure in life.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "category": "Depression",
+    "question": "I found it hard to stay focused on tasks.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "category": "Depression",
+    "question": "I felt a lack of self-confidence.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "category": "Depression",
+    "question": "I felt like I was a burden to others.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "category": "Depression",
+    "question": "I had difficulty making decisions.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "category": "Depression",
+    "question": "I found it hard to get out of bed in the morning.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "category": "Depression",
+    "question": "I lost interest in personal hygiene or appearance.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "category": "Depression",
+    "question": "I felt emotionally numb or detached.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "category": "Depression",
+    "question": "I felt empty or hollow inside.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "category": "Depression",
+    "question": "I found it difficult to find joy even in good events.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "category": "Depression",
+    "question": "I experienced recurring feelings of sadness.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "category": "Anxiety",
+    "question": "I felt close to panic.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "category": "Anxiety",
+    "question": "I was aware of dryness of my mouth.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "category": "Anxiety",
+    "question": "I experienced breathing difficulty.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "category": "Anxiety",
+    "question": "I found myself trembling or shaking.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "category": "Anxiety",
+    "question": "I was worried about situations in which I might panic.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "category": "Anxiety",
+    "question": "I felt scared without any good reason.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "category": "Anxiety",
+    "question": "I was concerned about being nervous or anxious.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "category": "Anxiety",
+    "question": "I experienced a racing heart without exertion.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "category": "Anxiety",
+    "question": "I felt tense or on edge.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "category": "Anxiety",
+    "question": "I worried too much about different things.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "category": "Anxiety",
+    "question": "I had trouble relaxing.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "category": "Anxiety",
+    "question": "I found it hard to control my worrying.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "category": "Anxiety",
+    "question": "I was easily startled.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "category": "Anxiety",
+    "question": "I experienced dizziness or light-headedness.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "category": "Anxiety",
+    "question": "I felt like something awful might happen.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "category": "Anxiety",
+    "question": "I avoided situations because of fear or anxiety.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "category": "Anxiety",
+    "question": "I was restless and found it hard to sit still.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "category": "Anxiety",
+    "question": "I experienced sudden feelings of panic.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "category": "Anxiety",
+    "question": "I worried about embarrassing myself in social situations.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "category": "Anxiety",
+    "question": "I was afraid of losing control over my actions.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "category": "Anxiety",
+    "question": "I felt my mind went blank due to anxiety.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "category": "Anxiety",
+    "question": "I experienced muscle tension.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "category": "Anxiety",
+    "question": "I was easily irritated or annoyed.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "category": "Anxiety",
+    "question": "I had nightmares or disturbing dreams.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "category": "Anxiety",
+    "question": "I found it difficult to sleep due to worry.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "category": "Anxiety",
+    "question": "I felt uneasy in crowded places.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "category": "Anxiety",
+    "question": "I avoided responsibilities due to fear of failure.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "category": "Anxiety",
+    "question": "I felt shaky or unsteady when anxious.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "category": "Anxiety",
+    "question": "I was worried about my health excessively.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "category": "Anxiety",
+    "question": "I had a sense of impending doom.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "category": "Anxiety",
+    "question": "I found myself replaying stressful events repeatedly.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "category": "Anxiety",
+    "question": "I had difficulty concentrating due to worry.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "category": "Anxiety",
+    "question": "I was anxious even without clear reasons.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "category": "Stress",
+    "question": "I found it hard to calm down after something upset me.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "category": "Stress",
+    "question": "I was intolerant of anything that kept me from getting on with what I was doing.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "category": "Stress",
+    "question": "I found myself getting agitated easily.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "category": "Stress",
+    "question": "I found it difficult to relax.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "category": "Stress",
+    "question": "I tended to overreact to situations.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "category": "Stress",
+    "question": "I felt that I was using a lot of nervous energy.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "category": "Stress",
+    "question": "I felt that I was rather touchy.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "category": "Stress",
+    "question": "I found it hard to tolerate interruptions to what I was doing.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "category": "Stress",
+    "question": "I felt that I was not coping well with things.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "category": "Stress",
+    "question": "I found myself impatient with people.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "category": "Stress",
+    "question": "I found it difficult to deal with even small problems.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "category": "Stress",
+    "question": "I found myself fidgety or unable to sit still.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "category": "Stress",
+    "question": "I felt that I was under pressure most of the time.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "category": "Stress",
+    "question": "I found it difficult to unwind after work or study.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "category": "Stress",
+    "question": "I felt that I was always on the go.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "category": "Stress",
+    "question": "I felt that I was being pushed beyond my limits.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "category": "Stress",
+    "question": "I found myself feeling tense most of the time.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "category": "Stress",
+    "question": "I found it difficult to control my temper.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "category": "Stress",
+    "question": "I was getting easily frustrated by trivial matters.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "category": "Stress",
+    "question": "I had difficulty sleeping due to tension.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "category": "Stress",
+    "question": "I felt mentally exhausted or burnt out.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "category": "Stress",
+    "question": "I found myself snapping at people for no reason.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "category": "Stress",
+    "question": "I experienced headaches or muscle pain due to stress.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "category": "Stress",
+    "question": "I felt like I had too many responsibilities.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "category": "Stress",
+    "question": "I felt that I couldn’t manage my time effectively.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "category": "Stress",
+    "question": "I had trouble focusing because of feeling overwhelmed.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "category": "Stress",
+    "question": "I found myself worrying constantly about deadlines.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "category": "Stress",
+    "question": "I felt like I was losing control of situations.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "category": "Stress",
+    "question": "I felt nervous about things even when they were going fine.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "category": "Stress",
+    "question": "I felt drained after interacting with others.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "category": "Stress",
+    "question": "I felt like I needed a break but couldn’t take one.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "category": "Stress",
+    "question": "I felt emotionally exhausted.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "category": "Stress",
+    "question": "I found myself procrastinating due to feeling overwhelmed.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "category": "Stress",
+    "question": "I felt that life’s demands were too much to handle.",
+    "options": [
+      {
+        "text": "Never",
+        "score": 0
+      },
+      {
+        "text": "Sometimes",
+        "score": 1
+      },
+      {
+        "text": "Often",
+        "score": 2
+      },
+      {
+        "text": "Almost always",
+        "score": 3
+      }
+    ]
+  }
+]

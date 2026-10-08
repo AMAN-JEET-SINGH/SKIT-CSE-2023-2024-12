@@ -1,0 +1,53 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# JavaScript dependencies and build output
+node_modules/
+SentiCare/frontend/dist/
+SentiCare/frontend/build/
+SentiCare/frontend/.next/
+SentiCare/frontend/out/
+SentiCare/frontend/coverage/
+
+# Local uploads and downloaded model checkpoints
+SentiCare/backend/uploads/
+SentiCare/backend/wav2vec2_checkpoints/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

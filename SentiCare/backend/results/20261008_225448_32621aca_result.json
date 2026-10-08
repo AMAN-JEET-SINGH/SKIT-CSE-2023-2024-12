@@ -1,0 +1,615 @@
+{
+  "video_path": "uploads/20261008_225448_32621aca.webm",
+  "video_emotion": {
+    "video_info": {
+      "path": "uploads/20261008_225448_32621aca.webm",
+      "fps": 1000.0,
+      "duration_seconds": 47.668,
+      "total_frames": 47668,
+      "interval_seconds": 5,
+      "frame_skip": 2,
+      "optimization": "Processed 1/2 frames for 2x speedup"
+    },
+    "emotion_labels": [
+      "sad",
+      "disgust",
+      "angry",
+      "neutral",
+      "fear",
+      "surprise",
+      "happy"
+    ],
+    "intervals": [],
+    "summary": {}
+  },
+  "transcript": {
+    "text": "Hey. How are you? Like, I'm enjoying my life at the fullest, And, I'm also very happy that today, I met with a person, my head of the technology of the company. He's so, like, mesmerizing to me. I like him a lot, and I get to learn a lot of things from him. He told me that how to build APIs and all these things. So that was my day, and I I enjoyed my day. I thought that my day was pro, like, what was that? Productive. Too much productive. I really like my day today.",
+    "words": [
+      {
+        "word": "hey",
+        "start": 6.96,
+        "end": 7.46
+      },
+      {
+        "word": "how",
+        "start": 7.52,
+        "end": 7.68
+      },
+      {
+        "word": "are",
+        "start": 7.68,
+        "end": 7.8399997
+      },
+      {
+        "word": "you",
+        "start": 7.8399997,
+        "end": 8.24
+      },
+      {
+        "word": "like",
+        "start": 8.24,
+        "end": 8.74
+      },
+      {
+        "word": "i'm",
+        "start": 9.12,
+        "end": 9.44
+      },
+      {
+        "word": "enjoying",
+        "start": 9.44,
+        "end": 9.92
+      },
+      {
+        "word": "my",
+        "start": 9.92,
+        "end": 10.08
+      },
+      {
+        "word": "life",
+        "start": 10.08,
+        "end": 10.58
+      },
+      {
+        "word": "at",
+        "start": 11.28,
+        "end": 11.44
+      },
+      {
+        "word": "the",
+        "start": 11.44,
+        "end": 11.679999
+      },
+      {
+        "word": "fullest",
+        "start": 11.679999,
+        "end": 12.179999
+      },
+      {
+        "word": "and",
+        "start": 13.214999,
+        "end": 13.714999
+      },
+      {
+        "word": "i'm",
+        "start": 15.455,
+        "end": 15.695
+      },
+      {
+        "word": "also",
+        "start": 15.695,
+        "end": 16.015
+      },
+      {
+        "word": "very",
+        "start": 16.015,
+        "end": 16.255
+      },
+      {
+        "word": "happy",
+        "start": 16.255,
+        "end": 16.654999
+      },
+      {
+        "word": "that",
+        "start": 16.654999,
+        "end": 17.154999
+      },
+      {
+        "word": "today",
+        "start": 17.935,
+        "end": 18.414999
+      },
+      {
+        "word": "i",
+        "start": 18.414999,
+        "end": 18.914999
+      },
+      {
+        "word": "met",
+        "start": 19.375,
+        "end": 19.615
+      },
+      {
+        "word": "with",
+        "start": 19.615,
+        "end": 19.855
+      },
+      {
+        "word": "a",
+        "start": 19.855,
+        "end": 20.015
+      },
+      {
+        "word": "person",
+        "start": 20.015,
+        "end": 20.515
+      },
+      {
+        "word": "my",
+        "start": 20.814999,
+        "end": 21.055
+      },
+      {
+        "word": "head",
+        "start": 21.055,
+        "end": 21.294998
+      },
+      {
+        "word": "of",
+        "start": 21.294998,
+        "end": 21.455
+      },
+      {
+        "word": "the",
+        "start": 21.455,
+        "end": 21.615
+      },
+      {
+        "word": "technology",
+        "start": 21.615,
+        "end": 22.115
+      },
+      {
+        "word": "of",
+        "start": 22.335,
+        "end": 22.414999
+      },
+      {
+        "word": "the",
+        "start": 22.414999,
+        "end": 22.575
+      },
+      {
+        "word": "company",
+        "start": 22.575,
+        "end": 23.075
+      },
+      {
+        "word": "he's",
+        "start": 23.615,
+        "end": 24.115
+      },
+      {
+        "word": "so",
+        "start": 24.175,
+        "end": 24.494999
+      },
+      {
+        "word": "like",
+        "start": 24.494999,
+        "end": 24.735
+      },
+      {
+        "word": "mesmerizing",
+        "start": 24.735,
+        "end": 25.235
+      },
+      {
+        "word": "to",
+        "start": 25.535,
+        "end": 25.695
+      },
+      {
+        "word": "me",
+        "start": 25.695,
+        "end": 26.195
+      },
+      {
+        "word": "i",
+        "start": 26.57,
+        "end": 26.73
+      },
+      {
+        "word": "like",
+        "start": 26.73,
+        "end": 26.97
+      },
+      {
+        "word": "him",
+        "start": 26.97,
+        "end": 27.21
+      },
+      {
+        "word": "a",
+        "start": 27.21,
+        "end": 27.29
+      },
+      {
+        "word": "lot",
+        "start": 27.29,
+        "end": 27.61
+      },
+      {
+        "word": "and",
+        "start": 27.61,
+        "end": 28.09
+      },
+      {
+        "word": "i",
+        "start": 28.09,
+        "end": 28.25
+      },
+      {
+        "word": "get",
+        "start": 28.25,
+        "end": 28.49
+      },
+      {
+        "word": "to",
+        "start": 28.49,
+        "end": 28.65
+      },
+      {
+        "word": "learn",
+        "start": 28.65,
+        "end": 28.97
+      },
+      {
+        "word": "a",
+        "start": 28.97,
+        "end": 29.05
+      },
+      {
+        "word": "lot",
+        "start": 29.05,
+        "end": 29.29
+      },
+      {
+        "word": "of",
+        "start": 29.29,
+        "end": 29.369999
+      },
+      {
+        "word": "things",
+        "start": 29.369999,
+        "end": 29.69
+      },
+      {
+        "word": "from",
+        "start": 29.69,
+        "end": 29.93
+      },
+      {
+        "word": "him",
+        "start": 29.93,
+        "end": 30.33
+      },
+      {
+        "word": "he",
+        "start": 30.33,
+        "end": 30.57
+      },
+      {
+        "word": "told",
+        "start": 30.57,
+        "end": 30.81
+      },
+      {
+        "word": "me",
+        "start": 30.81,
+        "end": 31.05
+      },
+      {
+        "word": "that",
+        "start": 31.05,
+        "end": 31.29
+      },
+      {
+        "word": "how",
+        "start": 31.29,
+        "end": 31.529999
+      },
+      {
+        "word": "to",
+        "start": 31.529999,
+        "end": 32.01
+      },
+      {
+        "word": "build",
+        "start": 32.01,
+        "end": 32.33
+      },
+      {
+        "word": "apis",
+        "start": 32.33,
+        "end": 32.81
+      },
+      {
+        "word": "and",
+        "start": 32.81,
+        "end": 32.97
+      },
+      {
+        "word": "all",
+        "start": 32.97,
+        "end": 33.45
+      },
+      {
+        "word": "these",
+        "start": 33.45,
+        "end": 33.69
+      },
+      {
+        "word": "things",
+        "start": 33.69,
+        "end": 34.19
+      },
+      {
+        "word": "so",
+        "start": 34.489998,
+        "end": 34.989998
+      },
+      {
+        "word": "that",
+        "start": 35.37,
+        "end": 35.61
+      },
+      {
+        "word": "was",
+        "start": 35.61,
+        "end": 35.85
+      },
+      {
+        "word": "my",
+        "start": 35.85,
+        "end": 36.010002
+      },
+      {
+        "word": "day",
+        "start": 36.010002,
+        "end": 36.25
+      },
+      {
+        "word": "and",
+        "start": 36.25,
+        "end": 36.57
+      },
+      {
+        "word": "i",
+        "start": 36.57,
+        "end": 37.07
+      },
+      {
+        "word": "i",
+        "start": 37.21,
+        "end": 37.37
+      },
+      {
+        "word": "enjoyed",
+        "start": 37.37,
+        "end": 37.77
+      },
+      {
+        "word": "my",
+        "start": 37.77,
+        "end": 37.93
+      },
+      {
+        "word": "day",
+        "start": 37.93,
+        "end": 38.17
+      },
+      {
+        "word": "i",
+        "start": 38.17,
+        "end": 38.489998
+      },
+      {
+        "word": "thought",
+        "start": 38.489998,
+        "end": 38.809998
+      },
+      {
+        "word": "that",
+        "start": 38.809998,
+        "end": 39.05
+      },
+      {
+        "word": "my",
+        "start": 39.05,
+        "end": 39.21
+      },
+      {
+        "word": "day",
+        "start": 39.21,
+        "end": 39.37
+      },
+      {
+        "word": "was",
+        "start": 39.37,
+        "end": 39.69
+      },
+      {
+        "word": "pro",
+        "start": 39.69,
+        "end": 40.184937
+      },
+      {
+        "word": "like",
+        "start": 40.504936,
+        "end": 41.004936
+      },
+      {
+        "word": "what",
+        "start": 41.384937,
+        "end": 41.624935
+      },
+      {
+        "word": "was",
+        "start": 41.624935,
+        "end": 41.864937
+      },
+      {
+        "word": "that",
+        "start": 41.864937,
+        "end": 42.364937
+      },
+      {
+        "word": "productive",
+        "start": 42.824936,
+        "end": 43.324936
+      },
+      {
+        "word": "too",
+        "start": 43.544937,
+        "end": 43.704937
+      },
+      {
+        "word": "much",
+        "start": 43.704937,
+        "end": 43.944935
+      },
+      {
+        "word": "productive",
+        "start": 43.944935,
+        "end": 44.444935
+      },
+      {
+        "word": "i",
+        "start": 45.544937,
+        "end": 45.784935
+      },
+      {
+        "word": "really",
+        "start": 45.784935,
+        "end": 46.104935
+      },
+      {
+        "word": "like",
+        "start": 46.104935,
+        "end": 46.504936
+      },
+      {
+        "word": "my",
+        "start": 46.504936,
+        "end": 46.744938
+      },
+      {
+        "word": "day",
+        "start": 46.744938,
+        "end": 46.984936
+      },
+      {
+        "word": "today",
+        "start": 46.984936,
+        "end": 47.484936
+      }
+    ],
+    "duration": 47.484936,
+    "confidence": 0.9980469
+  },
+  "audio_emotion": {
+    "emotion": "happy",
+    "confidence": 1.0,
+    "all_emotions": {
+      "neutral": 9.312572241126915e-11,
+      "happy": 2.627623466033846e-11,
+      "sad": 1.0,
+      "angry": 2.8244375588348802e-11
+    },
+    "model_used": "speechbrain_wav2vec2_iemocap",
+    "accuracy": "78.7%"
+  },
+  "text_analysis": {
+    "emotion": {
+      "dominant_emotion": "joy",
+      "confidence": 0.9816204309463501,
+      "all_emotions": {
+        "anger": 0.001533449161797762,
+        "disgust": 0.0016538648633286357,
+        "fear": 0.00027340423548594117,
+        "joy": 0.9816204309463501,
+        "neutral": 0.007237993646413088,
+        "sadness": 0.002117917174473405,
+        "surprise": 0.005562968552112579
+      }
+    },
+    "depression": {
+      "depression_level": "not depression",
+      "confidence": 0.9102481007575989,
+      "severity": 0,
+      "all_scores": {
+        "severe": 0.008581309579312801,
+        "moderate": 0.08117054402828217,
+        "not depression": 0.9102481007575989
+      }
+    },
+    "llm_analysis": {
+      "emotions": [
+        "happy",
+        "admiration"
+      ],
+      "sentiment": "positive",
+      "key_phrases": [
+        "enjoying my life at the fullest",
+        "mesmerizing",
+        "productive"
+      ],
+      "severity": 1
+    },
+    "anonymized_text": "Hey. How are you? Like, I'm enjoying my life at the fullest, And, I'm also very happy that today, I met with a person, my head of the technology of the company. He's so, like, mesmerizing to me. I like him a lot, and I get to learn a lot of things from him. He told me that how to build APIs and all these things. So that was my day, and I I enjoyed my day. I thought that my day was pro, like, what was that? Productive. Too much productive. I really like my day today."
+  },
+  "privacy_mode": "anonymized",
+  "llm_final_assessment": {
+    "overall_mental_health_score": 80,
+    "depression_score": 9,
+    "anxiety_score": 5,
+    "stress_score": 5,
+    "risk_level": "low",
+    "confidence": 0.95,
+    "key_indicators": [
+      "audio sadness (100% confidence)",
+      "text joy (98% confidence)",
+      "low depression (91% not depressed)"
+    ],
+    "recommendations": [
+      "You should keep tracking your mood daily to see if the sadness you hear in your voice persists",
+      "Consider sharing your feelings with a trusted friend or family member to gain perspective",
+      "If the sadness continues or starts to interfere with your daily activities, you might want to speak with a mental\u2011health professional"
+    ],
+    "areas_of_concern": [
+      "audio and text emotional mismatch",
+      "possible under\u2011reported sadness in voice"
+    ],
+    "positive_indicators": [
+      "high joy in text (98% confidence)",
+      "low depression probability (91% not depressed)",
+      "neutral video content"
+    ],
+    "distribution_insights": "The audio classifier is 100% confident that the speaker is sad, while the text classifier is overwhelmingly confident that the speaker is joyful (98%). This stark contrast suggests either a mis\u2011classification in one modality or a genuine mixed emotional state. The depression model indicates a very low risk of depression (only 9% probability of any depression). Overall, the system shows high confidence in its predictions (\u22480.95) but the conflicting emotional signals highlight the importance of multimodal integration and possibly additional data collection to resolve uncertainty."
+  },
+  "summary": {
+    "mental_health_score": 80,
+    "depression_score": 9,
+    "anxiety_score": 5,
+    "stress_score": 5,
+    "risk_level": "low",
+    "confidence": 0.95,
+    "video_emotion": "neutral",
+    "audio_emotion": "happy",
+    "text_emotion": "joy",
+    "depression_level": "not depression",
+    "total_intervals": 0
+  }
+}
