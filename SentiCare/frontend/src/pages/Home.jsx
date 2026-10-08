@@ -49,7 +49,7 @@ const LandingPage = () => {
           to="/"
           className="absolute left-1/2 transform -translate-x-1/2 text-2xl font-bold text-teal-900"
         >
-          Maitri
+          Senticare
         </Link>
 
         <div className="flex items-center space-x-10">

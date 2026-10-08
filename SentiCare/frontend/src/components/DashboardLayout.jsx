@@ -25,7 +25,7 @@ export default function DashboardLayout() {
           to="/dashboard"
           className="flex items-center px-6 py-6 border-b border-gray-200 hover:bg-gray-50 flex-shrink-0"
         >
-          <h1 className="text-2xl font-bold text-[#1A3A37]">Maitri</h1>
+          <h1 className="text-2xl font-bold text-[#1A3A37]">Senticare</h1>
         </NavLink>
 
         {/* Navigation Links */}
@@ -81,7 +81,7 @@ export default function DashboardLayout() {
                   d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
                 />
               </svg>
-              Talk With Maitri
+              Talk With Senticare
             </NavLink>
 
             <NavLink
@@ -178,7 +178,7 @@ export default function DashboardLayout() {
                   {user?.full_name || "User"}
                 </p>
                 <p className="text-xs text-gray-500 truncate">
-                  {user?.email || "welcome@maitri.com"}
+                  {user?.email || "welcome@Senticare.com"}
                 </p>
               </div>
             </div>

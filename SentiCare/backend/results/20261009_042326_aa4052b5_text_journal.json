@@ -1,0 +1,80 @@
+{
+  "journal_id": "20261009_042326_aa4052b5",
+  "timestamp": "2026-10-08T22:53:28.606289",
+  "privacy_mode": "anonymized",
+  "text_length": 39,
+  "text_statistics": {
+    "total_tokens_emotion": 12,
+    "chunks_emotion": 1,
+    "chunks_depression": 1,
+    "chunking_applied": false
+  },
+  "emotion_analysis": {
+    "dominant_emotion": "fear",
+    "confidence": 0.8535972833633423,
+    "all_emotions": {
+      "anger": 0.04805666208267212,
+      "disgust": 0.011852911673486233,
+      "fear": 0.8535972833633423,
+      "joy": 0.011749853380024433,
+      "neutral": 0.02388499677181244,
+      "sadness": 0.04895726963877678,
+      "surprise": 0.0019009999232366681
+    },
+    "chunks_analyzed": 1,
+    "total_tokens": 12,
+    "chunking_applied": false,
+    "chunk_distributions": [
+      {
+        "anger": 0.04805666208267212,
+        "disgust": 0.011852911673486233,
+        "fear": 0.8535972833633423,
+        "joy": 0.011749853380024433,
+        "neutral": 0.02388499677181244,
+        "sadness": 0.04895726963877678,
+        "surprise": 0.0019009999232366681
+      }
+    ]
+  },
+  "depression_analysis": {
+    "depression_level": "not depression",
+    "confidence": 0.9410172700881958,
+    "severity": 0,
+    "all_scores": {
+      "severe": 0.004405084531754255,
+      "moderate": 0.05457768961787224,
+      "not depression": 0.9410172700881958
+    },
+    "chunks_analyzed": 1,
+    "total_tokens": 12,
+    "chunking_applied": false,
+    "chunk_distributions": [
+      {
+        "severe": 0.004405084531754255,
+        "moderate": 0.05457768961787224,
+        "not depression": 0.9410172700881958
+      }
+    ]
+  },
+  "llm_assessment": {
+    "mental_health_score": 30,
+    "depression_score": 10,
+    "anxiety_score": 80,
+    "stress_score": 60,
+    "risk_level": "low",
+    "confidence": 0.8,
+    "key_indicators": [
+      "high fear",
+      "workload stress",
+      "anxiety",
+      "low depression"
+    ],
+    "recommendations": [
+      "You should reach out to a supervisor or colleague for support with your workload.",
+      "You should break your tasks into smaller, manageable steps to reduce overwhelm.",
+      "You should schedule short breaks and practice deep\u2011breathing exercises to lower anxiety.",
+      "You should consider talking to a mental health professional if the fear persists or worsens."
+    ],
+    "emotional_journey": "The entry reflects a consistent high level of fear related to workload, with no evidence of depression or emotional shifts. The emotional tone remains stable, indicating a persistent sense of anxiety and stress without improvement or worsening within the text."
+  }
+}

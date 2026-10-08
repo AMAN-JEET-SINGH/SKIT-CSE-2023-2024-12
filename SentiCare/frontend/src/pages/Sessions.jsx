@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Send, Paperclip, X, FileText, Image, File, Loader2, Shield, Activity } from "lucide-react";
 import axios from "axios";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { useAuth } from "../contexts/AuthContext";
 
 const API_BASE_URL = "http://localhost:8000";
@@ -212,7 +214,7 @@ export default function Sessions() {
         <div className="flex justify-between items-start">
           <div className="flex-1">
             <h1 className="text-2xl font-bold text-[#1A3A37]">
-              Chat With Maitri - Your Digital Companion
+              Chat With Senticare - Your Digital Companion
             </h1>
             <p className="text-gray-600 text-sm mt-1">
               Share your thoughts and feelings in a safe space
@@ -272,7 +274,7 @@ export default function Sessions() {
                   Personalized Support Active
                 </p>
                 <p className="text-xs text-teal-700 mt-1">
-                  Maitri has access to your recent mental health trends and can provide context-aware support and encouragement.
+                  Senticare has access to your recent mental health trends and can provide context-aware support and encouragement.
                 </p>
               </div>
             </div>
@@ -318,9 +320,53 @@ export default function Sessions() {
               }`}
             >
               {message.content && (
-                <p className="text-sm leading-relaxed whitespace-pre-wrap">
-                  {message.content}
-                </p>
+                message.type === "bot" ? (
+                  <div className="text-sm leading-relaxed break-words [&>*:first-child]:mt-0 [&>*:last-child]:mb-0">
+                    <ReactMarkdown
+                      remarkPlugins={[remarkGfm]}
+                      components={{
+                        h1: ({ ...props }) => (
+                          <h1 className="mt-4 mb-2 text-lg font-bold" {...props} />
+                        ),
+                        h2: ({ ...props }) => (
+                          <h2 className="mt-4 mb-2 text-base font-bold" {...props} />
+                        ),
+                        h3: ({ ...props }) => (
+                          <h3 className="mt-3 mb-1 font-semibold" {...props} />
+                        ),
+                        p: ({ ...props }) => <p className="my-2" {...props} />,
+                        ul: ({ ...props }) => (
+                          <ul className="my-2 list-disc space-y-1 pl-5" {...props} />
+                        ),
+                        ol: ({ ...props }) => (
+                          <ol className="my-2 list-decimal space-y-1 pl-5" {...props} />
+                        ),
+                        li: ({ ...props }) => <li className="pl-1" {...props} />,
+                        hr: ({ ...props }) => (
+                          <hr className="my-3 border-gray-300" {...props} />
+                        ),
+                        blockquote: ({ ...props }) => (
+                          <blockquote
+                            className="my-2 border-l-2 border-gray-400 pl-3 text-gray-600"
+                            {...props}
+                          />
+                        ),
+                        a: ({ ...props }) => (
+                          <a
+                            className="text-[#277f98] underline"
+                            {...props}
+                          />
+                        ),
+                      }}
+                    >
+                      {message.content}
+                    </ReactMarkdown>
+                  </div>
+                ) : (
+                  <p className="text-sm leading-relaxed whitespace-pre-wrap">
+                    {message.content}
+                  </p>
+                )
               )}
 
               {/* Display uploaded files */}
@@ -393,7 +439,7 @@ export default function Sessions() {
             <div className="bg-gray-100 rounded-2xl px-4 py-3">
               <div className="flex items-center space-x-2">
                 <Loader2 className="w-4 h-4 animate-spin text-gray-600" />
-                <p className="text-sm text-gray-600">Maitri is thinking...</p>
+                <p className="text-sm text-gray-600">Senticare is thinking...</p>
               </div>
             </div>
           </div>

@@ -123,7 +123,7 @@ class EmotionalSupportChatbot:
         self.sessions: Dict[str, Dict] = {}
         
         # System prompt for emotional support
-        self.system_prompt = """You are Maitri, a compassionate and empathetic mental health support companion. Your role is to:
+        self.system_prompt = """You are Senticare, a compassionate and empathetic mental health support companion. Your role is to:
 
 1. Listen actively and validate emotions
 2. Provide supportive, non-judgmental responses
