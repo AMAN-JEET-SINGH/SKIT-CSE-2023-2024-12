@@ -1,23 +1,4 @@
 
-"use client";
-
-import { useState } from "react";
-
-export default function ChatPage() {
-  const [message, setMessage] = useState("");
-
-  const [messages, setMessages] = useState([
-    {
-      id: 1,
-      text: "Hi! Welcome to SentiCare. How are you feeling today?",
-      sender: "bot",
-    },
-  ]);
-
-  function handleSend() {
-    const text = message.trim();
-
-    if (!text) return;
 
     setMessages((previous) => [
       ...previous,
@@ -29,7 +10,7 @@ export default function ChatPage() {
     ]);
 
     setMessage("");
-  }
+  }sfdsdfsfs
 
   return (
     <main className="min-h-screen bg-slate-100 p-4 sm:p-8">
@@ -100,3 +81,42 @@ export default function ChatPage() {
     </main>
   );
 }
+
+"use client";
+
+import { useState } from "react";
+
+export default function ChatPage() {
+  const [message, setMessage] = useState("");
+
+  const [messages, setMessages] = useState([
+    {
+      id: 1,
+      text: "Hi! Welcome to SentiCare. How are you feeling today?",
+      sender: "bot",
+    },
+  ]);
+
+  function handleSend() {
+    const text = message.trim();
+
+    if (!text) return;
+"use client";
+
+import { useState } from "react";
+
+export default function ChatPage() {
+  const [message, setMessage] = useState("");
+
+  const [messages, setMessages] = useState([
+    {
+      id: 1,
+      text: "Hi! Welcome to SentiCare. How are you feeling today?",
+      sender: "bot",
+    },
+  ]);
+
+  function handleSend() {
+    const text = message.trim();
+
+    if (!text) return;
