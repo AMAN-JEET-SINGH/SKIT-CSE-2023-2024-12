@@ -3,6 +3,9 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./App.css";
 
+document.documentElement.dataset.theme =
+  localStorage.getItem("senticare-theme") === "dark" ? "dark" : "light";
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />

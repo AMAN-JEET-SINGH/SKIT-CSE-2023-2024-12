@@ -11,9 +11,13 @@ import Resources from "./pages/Resources";
 import Profile from "./pages/Profile";
 import Calming from "./pages/Calming";
 import { AuthProvider } from "./contexts/AuthContext";
+import ThemeProvider from "./contexts/ThemeContext";
+import useTheme from "./contexts/useTheme";
 import ProtectedRoute from "./components/ProtectedRoute";
 
-function App() {
+function AppContent() {
+  const { theme } = useTheme();
+
   return (
     <AuthProvider>
       <Router>
@@ -46,10 +50,18 @@ function App() {
           pauseOnFocusLoss
           draggable
           pauseOnHover
-          theme="light"
+          theme={theme}
         />
       </Router>
     </AuthProvider>
+  );
+}
+
+function App() {
+  return (
+    <ThemeProvider>
+      <AppContent />
+    </ThemeProvider>
   );
 }
 
