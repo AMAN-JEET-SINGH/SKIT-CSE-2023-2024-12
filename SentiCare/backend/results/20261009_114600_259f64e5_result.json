@@ -1,0 +1,414 @@
+{
+  "video_path": "uploads/20261009_114600_259f64e5.webm",
+  "video_emotion": {
+    "video_info": {
+      "path": "uploads/20261009_114600_259f64e5.webm",
+      "fps": 59.94005994005994,
+      "duration_seconds": 22.005316666666666,
+      "total_frames": 1319,
+      "interval_seconds": 5,
+      "frame_skip": 2,
+      "optimization": "Processed 1/2 frames for 2x speedup"
+    },
+    "emotion_labels": [
+      "sad",
+      "disgust",
+      "angry",
+      "neutral",
+      "fear",
+      "surprise",
+      "happy"
+    ],
+    "intervals": [
+      {
+        "interval_number": 1,
+        "start_time": 0.0,
+        "end_time": 5,
+        "frames_processed": 300,
+        "frames_sampled": 150,
+        "frames_with_face": 149,
+        "face_detection_rate": 0.993,
+        "emotion_scores": {
+          "sad": 4.1,
+          "disgust": 0.99,
+          "angry": 9.51,
+          "neutral": 68.08,
+          "fear": 3.12,
+          "surprise": 2.11,
+          "happy": 11.42
+        },
+        "dominant_emotion": "neutral",
+        "detections_count": 149
+      },
+      {
+        "interval_number": 2,
+        "start_time": 5,
+        "end_time": 10,
+        "frames_processed": 300,
+        "frames_sampled": 150,
+        "frames_with_face": 150,
+        "face_detection_rate": 1.0,
+        "emotion_scores": {
+          "sad": 5.73,
+          "disgust": 1.25,
+          "angry": 8.5,
+          "neutral": 50.44,
+          "fear": 3.05,
+          "surprise": 2.68,
+          "happy": 28.35
+        },
+        "dominant_emotion": "neutral",
+        "detections_count": 150
+      }
+    ],
+    "summary": {
+      "total_intervals": 2,
+      "average_emotion_scores": {
+        "sad": 4.92,
+        "disgust": 1.12,
+        "angry": 9.0,
+        "neutral": 59.26,
+        "fear": 3.08,
+        "surprise": 2.4,
+        "happy": 19.89
+      },
+      "overall_dominant_emotion": "neutral"
+    }
+  },
+  "transcript": {
+    "text": "Okay. Today, I went to my office, and my boss was really frustrated on me. He told me that, I don't do really good work. And, he told me that, like, he's going to fire me in in some months and all. I'm really stressed right now.",
+    "words": [
+      {
+        "word": "okay",
+        "start": 0.16,
+        "end": 0.65999997
+      },
+      {
+        "word": "today",
+        "start": 2.8799999,
+        "end": 3.28
+      },
+      {
+        "word": "i",
+        "start": 3.28,
+        "end": 3.36
+      },
+      {
+        "word": "went",
+        "start": 3.36,
+        "end": 3.6
+      },
+      {
+        "word": "to",
+        "start": 3.6,
+        "end": 3.6799998
+      },
+      {
+        "word": "my",
+        "start": 3.6799998,
+        "end": 3.84
+      },
+      {
+        "word": "office",
+        "start": 3.84,
+        "end": 4.24
+      },
+      {
+        "word": "and",
+        "start": 4.24,
+        "end": 4.48
+      },
+      {
+        "word": "my",
+        "start": 4.48,
+        "end": 4.64
+      },
+      {
+        "word": "boss",
+        "start": 4.64,
+        "end": 4.88
+      },
+      {
+        "word": "was",
+        "start": 4.88,
+        "end": 5.12
+      },
+      {
+        "word": "really",
+        "start": 5.12,
+        "end": 5.3599997
+      },
+      {
+        "word": "frustrated",
+        "start": 5.3599997,
+        "end": 5.8399997
+      },
+      {
+        "word": "on",
+        "start": 5.8399997,
+        "end": 6.0
+      },
+      {
+        "word": "me",
+        "start": 6.0,
+        "end": 6.48
+      },
+      {
+        "word": "he",
+        "start": 6.72,
+        "end": 6.8799996
+      },
+      {
+        "word": "told",
+        "start": 6.8799996,
+        "end": 7.12
+      },
+      {
+        "word": "me",
+        "start": 7.12,
+        "end": 7.2799997
+      },
+      {
+        "word": "that",
+        "start": 7.2799997,
+        "end": 7.52
+      },
+      {
+        "word": "i",
+        "start": 7.7599998,
+        "end": 8.0
+      },
+      {
+        "word": "don't",
+        "start": 8.0,
+        "end": 8.5
+      },
+      {
+        "word": "do",
+        "start": 8.8,
+        "end": 9.2
+      },
+      {
+        "word": "really",
+        "start": 9.2,
+        "end": 9.679999
+      },
+      {
+        "word": "good",
+        "start": 9.679999,
+        "end": 10.0
+      },
+      {
+        "word": "work",
+        "start": 10.0,
+        "end": 10.5
+      },
+      {
+        "word": "and",
+        "start": 10.639999,
+        "end": 10.88
+      },
+      {
+        "word": "he",
+        "start": 11.28,
+        "end": 11.679999
+      },
+      {
+        "word": "told",
+        "start": 11.679999,
+        "end": 12.0
+      },
+      {
+        "word": "me",
+        "start": 12.0,
+        "end": 12.16
+      },
+      {
+        "word": "that",
+        "start": 12.16,
+        "end": 12.559999
+      },
+      {
+        "word": "like",
+        "start": 12.719999,
+        "end": 13.219999
+      },
+      {
+        "word": "he's",
+        "start": 14.285001,
+        "end": 14.6050005
+      },
+      {
+        "word": "going",
+        "start": 14.6050005,
+        "end": 14.765
+      },
+      {
+        "word": "to",
+        "start": 14.765,
+        "end": 14.925
+      },
+      {
+        "word": "fire",
+        "start": 14.925,
+        "end": 15.165
+      },
+      {
+        "word": "me",
+        "start": 15.165,
+        "end": 15.485001
+      },
+      {
+        "word": "in",
+        "start": 15.485001,
+        "end": 15.885
+      },
+      {
+        "word": "in",
+        "start": 15.885,
+        "end": 15.965
+      },
+      {
+        "word": "some",
+        "start": 15.965,
+        "end": 16.285
+      },
+      {
+        "word": "months",
+        "start": 16.285,
+        "end": 16.605
+      },
+      {
+        "word": "and",
+        "start": 16.605,
+        "end": 16.765
+      },
+      {
+        "word": "all",
+        "start": 16.765,
+        "end": 17.265
+      },
+      {
+        "word": "i'm",
+        "start": 18.445,
+        "end": 18.765
+      },
+      {
+        "word": "really",
+        "start": 18.765,
+        "end": 19.085
+      },
+      {
+        "word": "stressed",
+        "start": 19.085,
+        "end": 19.485
+      },
+      {
+        "word": "right",
+        "start": 19.485,
+        "end": 19.645
+      },
+      {
+        "word": "now",
+        "start": 19.645,
+        "end": 20.145
+      }
+    ],
+    "duration": 20.145,
+    "confidence": 0.99902344
+  },
+  "audio_emotion": {
+    "emotion": "neutral",
+    "confidence": 1.0,
+    "all_emotions": {
+      "neutral": 1.0,
+      "happy": 2.22699484721256e-12,
+      "sad": 2.5262621855537404e-11,
+      "angry": 1.1419080264696291e-10
+    },
+    "model_used": "speechbrain_wav2vec2_iemocap",
+    "accuracy": "78.7%"
+  },
+  "text_analysis": {
+    "emotion": {
+      "dominant_emotion": "anger",
+      "confidence": 0.7928852438926697,
+      "all_emotions": {
+        "anger": 0.7928852438926697,
+        "disgust": 0.04972374066710472,
+        "fear": 0.012151029892265797,
+        "joy": 0.002388628199696541,
+        "neutral": 0.04637093469500542,
+        "sadness": 0.08578915894031525,
+        "surprise": 0.010691207833588123
+      }
+    },
+    "depression": {
+      "depression_level": "not depression",
+      "confidence": 0.7864752411842346,
+      "severity": 0,
+      "all_scores": {
+        "severe": 0.006456215865910053,
+        "moderate": 0.20706848800182343,
+        "not depression": 0.7864752411842346
+      }
+    },
+    "llm_analysis": {
+      "emotions": [
+        "anxiety",
+        "frustration"
+      ],
+      "sentiment": "negative",
+      "key_phrases": [
+        "boss was frustrated",
+        "going to fire me",
+        "really stressed"
+      ],
+      "severity": 4
+    },
+    "anonymized_text": "Okay. Today, I went to my office, and my boss was really frustrated on me. He told me that, I don't do really good work. And, he told me that, like, he's going to fire me in in some months and all. I'm really stressed right now."
+  },
+  "privacy_mode": "anonymized",
+  "llm_final_assessment": {
+    "overall_mental_health_score": 60,
+    "depression_score": 21,
+    "anxiety_score": 30,
+    "stress_score": 40,
+    "risk_level": "moderate",
+    "confidence": 0.85,
+    "key_indicators": [
+      "High anger expression in text (79% probability)",
+      "Moderate sadness (8.6%)",
+      "Moderate depression probability (20.7%)",
+      "Job insecurity and threat of dismissal"
+    ],
+    "recommendations": [
+      "You should consider speaking with a mental health professional to process the anger and stress",
+      "You should practice stress\u2011reduction techniques such as deep breathing or brief walks during work hours",
+      "You should set clear boundaries with your boss and seek clarification on performance expectations",
+      "You should monitor your mood and keep a brief daily journal to track changes"
+    ],
+    "areas_of_concern": [
+      "Job\u2011related stress and potential for future depressive symptoms",
+      "Possible emotional suppression in nonverbal modalities"
+    ],
+    "positive_indicators": [
+      "No severe depression detected",
+      "Neutral emotional expression in video and audio modalities"
+    ],
+    "distribution_insights": "The video and audio classifiers both returned a 100% neutral distribution, indicating that the subject\u2019s nonverbal cues were calm or unexpressive. In contrast, the text classifier shows a dominant anger probability of 79%, with moderate sadness (8.6%) and small amounts of disgust, fear, and surprise. This discrepancy suggests a mixed emotional state where the individual may be internally experiencing anger and sadness while externally appearing neutral. The depression classifier indicates a moderate probability (20.7%) of depression but a high probability (78.6%) of not being depressed, reflecting uncertainty and a relatively low overall depression risk. The overall confidence is high (0.85) because each modality provides a clear, high\u2011probability prediction, though the cross\u2011modal differences highlight the importance of considering all sources of data in a holistic assessment."
+  },
+  "summary": {
+    "mental_health_score": 60,
+    "depression_score": 21,
+    "anxiety_score": 30,
+    "stress_score": 40,
+    "risk_level": "moderate",
+    "confidence": 0.85,
+    "video_emotion": "neutral",
+    "audio_emotion": "neutral",
+    "text_emotion": "anger",
+    "depression_level": "not depression",
+    "total_intervals": 2
+  }
+}

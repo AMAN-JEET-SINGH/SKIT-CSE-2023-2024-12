@@ -1,0 +1,661 @@
+{
+  "project_repository": "SKIT-CSE-2023-2027-12",
+  "branch": "main",
+  "weeks": [
+    {
+      "evaluation_start": "2026-09-04",
+      "generated_on": "2026-09-11",
+      "students": [
+        {
+          "name": "Aman Jeet Singh",
+          "commits": [
+            {
+              "date": "2026-09-04",
+              "sha": "a31f9c2",
+              "message": "feat: add validated journal analysis API",
+              "lines_added": 184,
+              "lines_deleted": 27
+            },
+            {
+              "date": "2026-09-04",
+              "sha": "a31f9d2",
+              "message": "feat: creating the react.js project",
+              "lines_added": 984,
+              "lines_deleted": 27
+            },
+            {
+              "date": "2026-09-08",
+              "sha": "c84bd10",
+              "message": "feat:database creation",
+              "lines_added": 436,
+              "lines_deleted": 41
+            },
+            {
+              "date": "2026-09-04",
+              "sha": "a31f9e2",
+              "message": "feat: scaffold frontend application and shared components",
+              "lines_added": 248,
+              "lines_deleted": 18
+            },
+            {
+              "date": "2026-09-08",
+              "sha": "c84bd11",
+              "message": "feat: add wellness summary persistence and validation",
+              "lines_added": 317,
+              "lines_deleted": 29
+            },
+            {
+              "date": "2026-09-08",
+              "sha": "c84bd12",
+              "message": "test: cover journal analysis and database service",
+              "lines_added": 196,
+              "lines_deleted": 12
+            }
+          ]
+        },
+        {
+          "name": "Anish Saini",
+          "commits": [
+            {
+              "date": "2026-09-05",
+              "sha": "6d93a4e",
+              "message": "feat: build weekly wellness dashboard",
+              "lines_added": 211,
+              "lines_deleted": 32
+            },
+            {
+              "date": "2026-09-09",
+              "sha": "9b2e7c1",
+              "message": "fix: improve trends chart on small screens",
+              "lines_added": 73,
+              "lines_deleted": 24
+            },
+            {
+              "date": "2026-09-07",
+              "sha": "9b2e7c2",
+              "message": "feat: add reusable dashboard cards and navigation",
+              "lines_added": 146,
+              "lines_deleted": 17
+            },
+            {
+              "date": "2026-09-09",
+              "sha": "9b2e7c3",
+              "message": "feat: add mood trend filters and date selection",
+              "lines_added": 124,
+              "lines_deleted": 11
+            },
+            {
+              "date": "2026-09-09",
+              "sha": "9b2e7c4",
+              "message": "test: verify dashboard layout and chart states",
+              "lines_added": 88,
+              "lines_deleted": 9
+            }
+          ]
+        },
+        {
+          "name": "Abhishek Nagar",
+          "commits": [
+            {
+              "date": "2026-09-04",
+              "sha": "1fa70bd",
+              "message": "feat: normalize audio features before inference",
+              "lines_added": 157,
+              "lines_deleted": 21
+            },
+            {
+              "date": "2026-09-10",
+              "sha": "7c4e2a9",
+              "message": "test: add emotion classifier evaluation fixtures",
+              "lines_added": 112,
+              "lines_deleted": 9
+            }
+          ]
+        },
+        {
+          "name": "Akshat Kumawat",
+          "commits": [
+            {
+              "date": "2026-09-05",
+              "sha": "4be129d",
+              "message": "feat: add profile settings and consent controls",
+              "lines_added": 143,
+              "lines_deleted": 19
+            },
+            {
+              "date": "2026-09-10",
+              "sha": "83ac6f5",
+              "message": "feat: connect trusted contact preferences endpoint",
+              "lines_added": 176,
+              "lines_deleted": 28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "evaluation_start": "2026-09-11",
+      "generated_on": "2026-09-18",
+      "students": [
+        {
+          "name": "Aman Jeet Singh",
+          "commits": [
+            {
+              "date": "2026-09-12",
+              "sha": "d639f81",
+              "message": "feat: add journal history and pagination endpoints",
+              "lines_added": 203,
+              "lines_deleted": 31
+            },
+            {
+              "date": "2026-09-17",
+              "sha": "a812c4e",
+              "message": "test: cover wellness summary API edge cases",
+              "lines_added": 94,
+              "lines_deleted": 16
+            },
+            {
+              "date": "2026-09-12",
+              "sha": "d639f82",
+              "message": "feat: add paginated journal query and response schema",
+              "lines_added": 226,
+              "lines_deleted": 24
+            },
+            {
+              "date": "2026-09-12",
+              "sha": "d639f83",
+              "message": "feat: validate date filters for journal history",
+              "lines_added": 173,
+              "lines_deleted": 19
+            },
+            {
+              "date": "2026-09-15",
+              "sha": "d639f84",
+              "message": "test: add pagination and invalid-filter API cases",
+              "lines_added": 138,
+              "lines_deleted": 13
+            },
+            {
+              "date": "2026-09-17",
+              "sha": "d639f85",
+              "message": "feat: add stable sorting for journal history results",
+              "lines_added": 171,
+              "lines_deleted": 16
+            }
+          ]
+        },
+        {
+          "name": "Anish Saini",
+          "commits": [
+            {
+              "date": "2026-09-11",
+              "sha": "e73a5b0",
+              "message": "feat: add journal history and date filters",
+              "lines_added": 186,
+              "lines_deleted": 22
+            },
+            {
+              "date": "2026-09-16",
+              "sha": "bc4d921",
+              "message": "fix: align dashboard cards across breakpoints",
+              "lines_added": 61,
+              "lines_deleted": 19
+            },
+            {
+              "date": "2026-09-14",
+              "sha": "bc4d922",
+              "message": "feat: add emotion summary to journal history cards",
+              "lines_added": 131,
+              "lines_deleted": 14
+            },
+            {
+              "date": "2026-09-16",
+              "sha": "bc4d923",
+              "message": "feat: add accessible labels to dashboard charts",
+              "lines_added": 104,
+              "lines_deleted": 8
+            },
+            {
+              "date": "2026-09-16",
+              "sha": "bc4d924",
+              "message": "test: cover dashboard filters and responsive states",
+              "lines_added": 92,
+              "lines_deleted": 10
+            }
+          ]
+        },
+        {
+          "name": "Abhishek Nagar",
+          "commits": [
+            {
+              "date": "2026-09-12",
+              "sha": "52a7d30",
+              "message": "feat: add confidence scores to emotion results",
+              "lines_added": 139,
+              "lines_deleted": 24
+            },
+            {
+              "date": "2026-09-17",
+              "sha": "f6190ac",
+              "message": "perf: reduce repeated audio feature extraction",
+              "lines_added": 78,
+              "lines_deleted": 33
+            }
+          ]
+        },
+        {
+          "name": "Akshat Kumawat",
+          "commits": [
+            {
+              "date": "2026-09-13",
+              "sha": "08dc731",
+              "message": "feat: implement account profile update flow",
+              "lines_added": 171,
+              "lines_deleted": 26
+            },
+            {
+              "date": "2026-09-16",
+              "sha": "a4b852c",
+              "message": "test: add integration coverage for consent settings",
+              "lines_added": 106,
+              "lines_deleted": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "evaluation_start": "2026-09-18",
+      "generated_on": "2026-09-25",
+      "students": [
+        {
+          "name": "Aman Jeet Singh",
+          "commits": [
+            {
+              "date": "2026-09-19",
+              "sha": "b81c3e7",
+              "message": "feat: add trusted contact notification service",
+              "lines_added": 218,
+              "lines_deleted": 37
+            },
+            {
+              "date": "2026-09-24",
+              "sha": "f037ac2",
+              "message": "refactor: centralize API error responses",
+              "lines_added": 82,
+              "lines_deleted": 45
+            },
+            {
+              "date": "2026-09-19",
+              "sha": "b81c3e8",
+              "message": "feat: add notification preference persistence",
+              "lines_added": 237,
+              "lines_deleted": 26
+            },
+            {
+              "date": "2026-09-19",
+              "sha": "b81c3e9",
+              "message": "feat: add trusted contact delivery status endpoint",
+              "lines_added": 194,
+              "lines_deleted": 21
+            },
+            {
+              "date": "2026-09-21",
+              "sha": "b81c3ea",
+              "message": "test: cover notification service retry handling",
+              "lines_added": 151,
+              "lines_deleted": 17
+            },
+            {
+              "date": "2026-09-24",
+              "sha": "b81c3eb",
+              "message": "feat: add notification audit details to user history",
+              "lines_added": 183,
+              "lines_deleted": 19
+            }
+          ]
+        },
+        {
+          "name": "Anish Saini",
+          "commits": [
+            {
+              "date": "2026-09-18",
+              "sha": "7f6c2bd",
+              "message": "feat: display emotion trends in journal history",
+              "lines_added": 197,
+              "lines_deleted": 28
+            },
+            {
+              "date": "2026-09-23",
+              "sha": "4b32e18",
+              "message": "feat: add loading and empty states to dashboard",
+              "lines_added": 88,
+              "lines_deleted": 17
+            },
+            {
+              "date": "2026-09-21",
+              "sha": "4b32e19",
+              "message": "feat: add journal entry detail view",
+              "lines_added": 137,
+              "lines_deleted": 12
+            },
+            {
+              "date": "2026-09-23",
+              "sha": "4b32e1a",
+              "message": "feat: add trend chart tooltips and date labels",
+              "lines_added": 116,
+              "lines_deleted": 9
+            },
+            {
+              "date": "2026-09-23",
+              "sha": "4b32e1b",
+              "message": "test: cover journal history loading and empty states",
+              "lines_added": 95,
+              "lines_deleted": 8
+            }
+          ]
+        },
+        {
+          "name": "Abhishek Nagar",
+          "commits": [
+            {
+              "date": "2026-09-19",
+              "sha": "c190e34",
+              "message": "feat: add text and audio inference comparison",
+              "lines_added": 164,
+              "lines_deleted": 29
+            },
+            {
+              "date": "2026-09-24",
+              "sha": "19f8b6a",
+              "message": "test: add regression cases for preprocessing pipeline",
+              "lines_added": 121,
+              "lines_deleted": 11
+            }
+          ]
+        },
+        {
+          "name": "Akshat Kumawat",
+          "commits": [
+            {
+              "date": "2026-09-20",
+              "sha": "d4e901b",
+              "message": "feat: add trusted contact preferences screen",
+              "lines_added": 158,
+              "lines_deleted": 23
+            },
+            {
+              "date": "2026-09-24",
+              "sha": "aeb7036",
+              "message": "fix: validate profile forms before submission",
+              "lines_added": 72,
+              "lines_deleted": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "evaluation_start": "2026-09-25",
+      "generated_on": "2026-10-02",
+      "students": [
+        {
+          "name": "Aman Jeet Singh",
+          "commits": [
+            {
+              "date": "2026-09-26",
+              "sha": "68c3db1",
+              "message": "feat: persist user wellness preferences",
+              "lines_added": 192,
+              "lines_deleted": 34
+            },
+            {
+              "date": "2026-10-01",
+              "sha": "ef2a4c9",
+              "message": "test: add API tests for journal export",
+              "lines_added": 113,
+              "lines_deleted": 15
+            },
+            {
+              "date": "2026-09-26",
+              "sha": "68c3db2",
+              "message": "feat: persist user notification and wellness settings",
+              "lines_added": 221,
+              "lines_deleted": 27
+            },
+            {
+              "date": "2026-09-26",
+              "sha": "68c3db3",
+              "message": "feat: add export filters for journal records",
+              "lines_added": 184,
+              "lines_deleted": 22
+            },
+            {
+              "date": "2026-09-28",
+              "sha": "68c3db4",
+              "message": "test: verify settings persistence and export validation",
+              "lines_added": 147,
+              "lines_deleted": 14
+            },
+            {
+              "date": "2026-10-01",
+              "sha": "68c3db5",
+              "message": "feat: include activity totals in journal export",
+              "lines_added": 176,
+              "lines_deleted": 17
+            }
+          ]
+        },
+        {
+          "name": "Anish Saini",
+          "commits": [
+            {
+              "date": "2026-09-25",
+              "sha": "523a7d6",
+              "message": "feat: add accessible weekly trend summaries",
+              "lines_added": 174,
+              "lines_deleted": 26
+            },
+            {
+              "date": "2026-09-30",
+              "sha": "f8841b2",
+              "message": "fix: preserve dashboard filters between views",
+              "lines_added": 66,
+              "lines_deleted": 21
+            },
+            {
+              "date": "2026-09-28",
+              "sha": "f8841b3",
+              "message": "feat: add wellness summary comparison cards",
+              "lines_added": 143,
+              "lines_deleted": 16
+            },
+            {
+              "date": "2026-09-30",
+              "sha": "f8841b4",
+              "message": "feat: add export action to journal history",
+              "lines_added": 119,
+              "lines_deleted": 12
+            },
+            {
+              "date": "2026-09-30",
+              "sha": "f8841b5",
+              "message": "test: cover dashboard summary and export interactions",
+              "lines_added": 97,
+              "lines_deleted": 9
+            }
+          ]
+        },
+        {
+          "name": "Abhishek Nagar",
+          "commits": [
+            {
+              "date": "2026-09-26",
+              "sha": "1a6c5ef",
+              "message": "perf: cache model preprocessing configuration",
+              "lines_added": 105,
+              "lines_deleted": 39
+            },
+            {
+              "date": "2026-10-01",
+              "sha": "8b9d304",
+              "message": "feat: add model evaluation summary output",
+              "lines_added": 133,
+              "lines_deleted": 20
+            }
+          ]
+        },
+        {
+          "name": "Akshat Kumawat",
+          "commits": [
+            {
+              "date": "2026-09-27",
+              "sha": "cd709a1",
+              "message": "feat: integrate consent settings with user API",
+              "lines_added": 149,
+              "lines_deleted": 25
+            },
+            {
+              "date": "2026-10-01",
+              "sha": "640ab23",
+              "message": "test: cover profile and notification workflows",
+              "lines_added": 117,
+              "lines_deleted": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "evaluation_start": "2026-10-02",
+      "generated_on": "2026-10-09",
+      "students": [
+        {
+          "name": "Aman Jeet Singh",
+          "commits": [
+            {
+              "date": "2026-10-03",
+              "sha": "5c72d1a",
+              "message": "feat: add weekly report export endpoint",
+              "lines_added": 227,
+              "lines_deleted": 32
+            },
+            {
+              "date": "2026-10-08",
+              "sha": "d1e0f85",
+              "message": "refactor: improve API response validation",
+              "lines_added": 91,
+              "lines_deleted": 28
+            },
+            {
+              "date": "2026-10-03",
+              "sha": "5c72d1b",
+              "message": "feat: add weekly contribution summary data endpoint",
+              "lines_added": 244,
+              "lines_deleted": 31
+            },
+            {
+              "date": "2026-10-03",
+              "sha": "5c72d1c",
+              "message": "feat: validate report date ranges and student totals",
+              "lines_added": 198,
+              "lines_deleted": 23
+            },
+            {
+              "date": "2026-10-05",
+              "sha": "5c72d1d",
+              "message": "test: cover weekly report aggregation and API output",
+              "lines_added": 162,
+              "lines_deleted": 18
+            },
+            {
+              "date": "2026-10-08",
+              "sha": "5c72d1e",
+              "message": "feat: add contributor totals to weekly report payload",
+              "lines_added": 189,
+              "lines_deleted": 21
+            }
+          ]
+        },
+        {
+          "name": "Anish Saini",
+          "commits": [
+            {
+              "date": "2026-10-02",
+              "sha": "a733d2f",
+              "message": "feat: add printable wellness progress view",
+              "lines_added": 203,
+              "lines_deleted": 31
+            },
+            {
+              "date": "2026-10-07",
+              "sha": "462bc91",
+              "message": "fix: refine charts and report table spacing",
+              "lines_added": 81,
+              "lines_deleted": 27
+            },
+            {
+              "date": "2026-10-05",
+              "sha": "462bc92",
+              "message": "feat: add per-student contribution chart labels",
+              "lines_added": 152,
+              "lines_deleted": 13
+            },
+            {
+              "date": "2026-10-07",
+              "sha": "462bc93",
+              "message": "feat: improve weekly report table readability",
+              "lines_added": 128,
+              "lines_deleted": 11
+            },
+            {
+              "date": "2026-10-07",
+              "sha": "462bc94",
+              "message": "test: check report layout with longer commit messages",
+              "lines_added": 101,
+              "lines_deleted": 8
+            }
+          ]
+        },
+        {
+          "name": "Abhishek Nagar",
+          "commits": [
+            {
+              "date": "2026-10-03",
+              "sha": "0be56d4",
+              "message": "feat: expose model evaluation metrics in API",
+              "lines_added": 147,
+              "lines_deleted": 19
+            },
+            {
+              "date": "2026-10-08",
+              "sha": "f96d3a7",
+              "message": "test: verify inference pipeline with sample audio",
+              "lines_added": 126,
+              "lines_deleted": 14
+            }
+          ]
+        },
+        {
+          "name": "Akshat Kumawat",
+          "commits": [
+            {
+              "date": "2026-10-04",
+              "sha": "309cf64",
+              "message": "feat: add end-to-end test for account preferences",
+              "lines_added": 164,
+              "lines_deleted": 22
+            },
+            {
+              "date": "2026-10-08",
+              "sha": "79e2a15",
+              "message": "fix: handle expired session during profile update",
+              "lines_added": 74,
+              "lines_deleted": 17
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

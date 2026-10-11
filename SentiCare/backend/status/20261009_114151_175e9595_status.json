@@ -1,0 +1,4 @@
+{
+  "message": "Analysis failed: Audio/text processing failed: Client error '408 Request Timeout' for url 'https://api.deepgram.com/v1/listen?model=nova-2&smart_format=true&punctuate=true'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/408",
+  "last_updated": "2026-10-09T06:13:23.120973"
+}
