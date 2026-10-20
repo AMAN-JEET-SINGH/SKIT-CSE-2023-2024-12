@@ -1,0 +1,154 @@
+{
+  "video_path": "uploads/20261009_105749_3c4403be.webm",
+  "video_emotion": {
+    "video_info": {
+      "path": "uploads/20261009_105749_3c4403be.webm",
+      "fps": 29.666666666666668,
+      "duration_seconds": 8.595505617977528,
+      "total_frames": 255,
+      "interval_seconds": 5,
+      "frame_skip": 2,
+      "optimization": "Processed 1/2 frames for 2x speedup"
+    },
+    "emotion_labels": [
+      "sad",
+      "disgust",
+      "angry",
+      "neutral",
+      "fear",
+      "surprise",
+      "happy"
+    ],
+    "intervals": [
+      {
+        "interval_number": 1,
+        "start_time": 0.0,
+        "end_time": 5,
+        "frames_processed": 148,
+        "frames_sampled": 74,
+        "frames_with_face": 70,
+        "face_detection_rate": 0.946,
+        "emotion_scores": {
+          "sad": 2.23,
+          "disgust": 0.55,
+          "angry": 1.55,
+          "neutral": 7.82,
+          "fear": 0.57,
+          "surprise": 0.7,
+          "happy": 81.18
+        },
+        "dominant_emotion": "happy",
+        "detections_count": 70
+      }
+    ],
+    "summary": {
+      "total_intervals": 1,
+      "average_emotion_scores": {
+        "sad": 2.23,
+        "disgust": 0.55,
+        "angry": 1.55,
+        "neutral": 7.82,
+        "fear": 0.57,
+        "surprise": 0.7,
+        "happy": 81.18
+      },
+      "overall_dominant_emotion": "happy"
+    }
+  },
+  "transcript": {
+    "text": "",
+    "words": [],
+    "duration": 0.0,
+    "confidence": 0.0
+  },
+  "audio_emotion": {
+    "emotion": "happy",
+    "confidence": 1.0,
+    "all_emotions": {
+      "neutral": 9.644052667567848e-09,
+      "happy": 2.414329586947206e-12,
+      "sad": 1.0,
+      "angry": 1.27368393609828e-10
+    },
+    "model_used": "speechbrain_wav2vec2_iemocap",
+    "accuracy": "78.7%"
+  },
+  "text_analysis": {
+    "emotion": {
+      "dominant_emotion": "neutral",
+      "confidence": 0.5494773983955383,
+      "all_emotions": {
+        "anger": 0.06413351744413376,
+        "disgust": 0.1040065661072731,
+        "fear": 0.05136270821094513,
+        "joy": 0.04056433215737343,
+        "neutral": 0.5494773983955383,
+        "sadness": 0.11169009655714035,
+        "surprise": 0.07876540720462799
+      }
+    },
+    "depression": {
+      "depression_level": "not depression",
+      "confidence": 0.5571501851081848,
+      "severity": 0,
+      "all_scores": {
+        "severe": 0.1638140082359314,
+        "moderate": 0.2790358364582062,
+        "not depression": 0.5571501851081848
+      }
+    },
+    "llm_analysis": {
+      "emotions": [
+        "neutral",
+        "neutral"
+      ],
+      "sentiment": "neutral",
+      "key_phrases": [],
+      "severity": 0
+    },
+    "anonymized_text": ""
+  },
+  "privacy_mode": "anonymized",
+  "llm_final_assessment": {
+    "overall_mental_health_score": 80,
+    "depression_score": 30,
+    "anxiety_score": 25,
+    "stress_score": 35,
+    "risk_level": "low",
+    "confidence": 0.9,
+    "key_indicators": [
+      "emotional incongruence across modalities",
+      "high sadness probability in audio",
+      "dominant happiness in video",
+      "neutral text with moderate sadness"
+    ],
+    "recommendations": [
+      "You should monitor your mood and note any changes in how you feel throughout the day",
+      "Consider speaking with a mental\u2011health professional if you notice persistent sadness or emotional conflict",
+      "Try engaging in activities that you enjoy and that promote relaxation, such as walking, listening to music, or practicing mindfulness"
+    ],
+    "areas_of_concern": [
+      "emotional inconsistency between what you see and what you feel",
+      "potential unexpressed sadness"
+    ],
+    "positive_indicators": [
+      "high happiness in video",
+      "low depression probability",
+      "neutral text indicates no strong negative sentiment"
+    ],
+    "distribution_insights": "The video classifier reports 100% happy with very high confidence, while the audio classifier reports 100% sad, also with very high confidence. The text classifier is more mixed, with 55% neutral and 11% sadness, plus smaller amounts of disgust, anger, fear, surprise, and joy. This mismatch suggests that you may be presenting a positive outward demeanor while internally experiencing sadness, or that the audio capture may have picked up a different emotional context. The overall confidence across modalities is high (\u22480.9) because the video and audio distributions are sharply peaked, but the text distribution indicates some uncertainty. The combined evidence points to a low overall risk but highlights the need to explore the underlying emotional incongruence. "
+  },
+  "summary": {
+    "mental_health_score": 80,
+    "depression_score": 30,
+    "anxiety_score": 25,
+    "stress_score": 35,
+    "risk_level": "low",
+    "confidence": 0.9,
+    "video_emotion": "happy",
+    "audio_emotion": "happy",
+    "text_emotion": "neutral",
+    "depression_level": "not depression",
+    "total_intervals": 1
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "video_path": "uploads/20261009_120910_299fa4db.webm",
+  "video_emotion": {
+    "video_info": {
+      "path": "uploads/20261009_120910_299fa4db.webm",
+      "fps": 60.0,
+      "duration_seconds": 22.133333333333333,
+      "total_frames": 1328,
+      "interval_seconds": 5,
+      "frame_skip": 2,
+      "optimization": "Processed 1/2 frames for 2x speedup"
+    },
+    "emotion_labels": [
+      "sad",
+      "disgust",
+      "angry",
+      "neutral",
+      "fear",
+      "surprise",
+      "happy"
+    ],
+    "intervals": [
+      {
+        "interval_number": 1,
+        "start_time": 0.0,
+        "end_time": 5,
+        "frames_processed": 300,
+        "frames_sampled": 150,
+        "frames_with_face": 149,
+        "face_detection_rate": 0.993,
+        "emotion_scores": {
+          "sad": 4.21,
+          "disgust": 0.79,
+          "angry": 6.99,
+          "neutral": 48.06,
+          "fear": 1.96,
+          "surprise": 1.73,
+          "happy": 35.59
+        },
+        "dominant_emotion": "neutral",
+        "detections_count": 149
+      },
+      {
+        "interval_number": 2,
+        "start_time": 5,
+        "end_time": 10,
+        "frames_processed": 300,
+        "frames_sampled": 150,
+        "frames_with_face": 150,
+        "face_detection_rate": 1.0,
+        "emotion_scores": {
+          "sad": 6.75,
+          "disgust": 0.82,
+          "angry": 11.58,
+          "neutral": 63.13,
+          "fear": 4.11,
+          "surprise": 1.81,
+          "happy": 11.8
+        },
+        "dominant_emotion": "neutral",
+        "detections_count": 150
+      }
+    ],
+    "summary": {
+      "total_intervals": 2,
+      "average_emotion_scores": {
+        "sad": 5.48,
+        "disgust": 0.8,
+        "angry": 9.29,
+        "neutral": 55.59,
+        "fear": 3.04,
+        "surprise": 1.77,
+        "happy": 23.7
+      },
+      "overall_dominant_emotion": "neutral"
+    }
+  },
+  "transcript": {
+    "text": "Today, I'm really happy. I got my first internship today, and, the people around me are really nice to me. They told me, very, valuable stuff that, helped me grow in my, like, corporate journey. And, my team was really good.",
+    "words": [
+      {
+        "word": "today",
+        "start": 1.8399999,
+        "end": 2.34
+      },
+      {
+        "word": "i'm",
+        "start": 2.3999999,
+        "end": 2.6399999
+      },
+      {
+        "word": "really",
+        "start": 2.6399999,
+        "end": 2.8799999
+      },
+      {
+        "word": "happy",
+        "start": 2.8799999,
+        "end": 3.3799999
+      },
+      {
+        "word": "i",
+        "start": 3.76,
+        "end": 3.9199998
+      },
+      {
+        "word": "got",
+        "start": 3.9199998,
+        "end": 4.16
+      },
+      {
+        "word": "my",
+        "start": 4.16,
+        "end": 4.24
+      },
+      {
+        "word": "first",
+        "start": 4.24,
+        "end": 4.56
+      },
+      {
+        "word": "internship",
+        "start": 4.56,
+        "end": 5.06
+      },
+      {
+        "word": "today",
+        "start": 5.12,
+        "end": 5.62
+      },
+      {
+        "word": "and",
+        "start": 5.68,
+        "end": 6.16
+      },
+      {
+        "word": "the",
+        "start": 7.52,
+        "end": 7.68
+      },
+      {
+        "word": "people",
+        "start": 7.68,
+        "end": 8.0
+      },
+      {
+        "word": "around",
+        "start": 8.0,
+        "end": 8.32
+      },
+      {
+        "word": "me",
+        "start": 8.32,
+        "end": 8.559999
+      },
+      {
+        "word": "are",
+        "start": 8.559999,
+        "end": 8.88
+      },
+      {
+        "word": "really",
+        "start": 8.88,
+        "end": 9.2
+      },
+      {
+        "word": "nice",
+        "start": 9.2,
+        "end": 9.36
+      },
+      {
+        "word": "to",
+        "start": 9.36,
+        "end": 9.5199995
+      },
+      {
+        "word": "me",
+        "start": 9.5199995,
+        "end": 10.0
+      },
+      {
+        "word": "they",
+        "start": 10.0,
+        "end": 10.32
+      },
+      {
+        "word": "told",
+        "start": 10.32,
+        "end": 10.559999
+      },
+      {
+        "word": "me",
+        "start": 10.559999,
+        "end": 11.04
+      },
+      {
+        "word": "very",
+        "start": 11.28,
+        "end": 11.759999
+      },
+      {
+        "word": "valuable",
+        "start": 12.764937,
+        "end": 13.164938
+      },
+      {
+        "word": "stuff",
+        "start": 13.164938,
+        "end": 13.564938
+      },
+      {
+        "word": "that",
+        "start": 13.564938,
+        "end": 14.064938
+      },
+      {
+        "word": "helped",
+        "start": 14.604938,
+        "end": 14.844937
+      },
+      {
+        "word": "me",
+        "start": 14.844937,
+        "end": 15.164938
+      },
+      {
+        "word": "grow",
+        "start": 15.164938,
+        "end": 15.484938
+      },
+      {
+        "word": "in",
+        "start": 15.484938,
+        "end": 15.724937
+      },
+      {
+        "word": "my",
+        "start": 15.724937,
+        "end": 15.884937
+      },
+      {
+        "word": "like",
+        "start": 15.884937,
+        "end": 16.384937
+      },
+      {
+        "word": "corporate",
+        "start": 16.684937,
+        "end": 17.084938
+      },
+      {
+        "word": "journey",
+        "start": 17.084938,
+        "end": 17.584938
+      },
+      {
+        "word": "and",
+        "start": 17.964937,
+        "end": 18.324936
+      },
+      {
+        "word": "my",
+        "start": 18.684937,
+        "end": 18.844936
+      },
+      {
+        "word": "team",
+        "start": 18.844936,
+        "end": 19.084938
+      },
+      {
+        "word": "was",
+        "start": 19.084938,
+        "end": 19.324938
+      },
+      {
+        "word": "really",
+        "start": 19.324938,
+        "end": 19.564938
+      },
+      {
+        "word": "good",
+        "start": 19.564938,
+        "end": 20.064938
+      }
+    ],
+    "duration": 20.064938,
+    "confidence": 0.9975586
+  },
+  "audio_emotion": {
+    "emotion": "happy",
+    "confidence": 0.9999998807907104,
+    "all_emotions": {
+      "neutral": 9.53690033611565e-08,
+      "happy": 2.8128827267437373e-08,
+      "sad": 0.9999998807907104,
+      "angry": 1.479329297948695e-10
+    },
+    "model_used": "speechbrain_wav2vec2_iemocap",
+    "accuracy": "78.7%"
+  },
+  "text_analysis": {
+    "emotion": {
+      "dominant_emotion": "joy",
+      "confidence": 0.9875915050506592,
+      "all_emotions": {
+        "anger": 0.0010691849747672677,
+        "disgust": 0.0005258037708699703,
+        "fear": 0.0003051391977351159,
+        "joy": 0.9875915050506592,
+        "neutral": 0.0017114309594035149,
+        "sadness": 0.0016720647690817714,
+        "surprise": 0.007124770432710648
+      }
+    },
+    "depression": {
+      "depression_level": "not depression",
+      "confidence": 0.969862699508667,
+      "severity": 0,
+      "all_scores": {
+        "severe": 0.0024430069606751204,
+        "moderate": 0.02769433706998825,
+        "not depression": 0.969862699508667
+      }
+    },
+    "llm_analysis": {
+      "emotions": [
+        "happy",
+        "optimistic"
+      ],
+      "sentiment": "positive",
+      "key_phrases": [
+        "first internship",
+        "people around me are really nice",
+        "valuable stuff that helped me grow"
+      ],
+      "severity": 1
+    },
+    "anonymized_text": "Today, I'm really happy. I got my first internship today, and, the people around me are really nice to me. They told me, very, valuable stuff that, helped me grow in my, like, corporate journey. And, my team was really good."
+  },
+  "privacy_mode": "anonymized",
+  "llm_final_assessment": {
+    "overall_mental_health_score": 92,
+    "depression_score": 3,
+    "anxiety_score": 5,
+    "stress_score": 4,
+    "risk_level": "low",
+    "confidence": 0.996,
+    "key_indicators": [
+      "High sadness probability in audio (0.9999999)",
+      "High joy in text (0.9876)",
+      "Neutral dominant in video (1.0)"
+    ],
+    "recommendations": [
+      "You should monitor your mood regularly to detect any shifts.",
+      "Consider discussing the audio sadness with a mental health professional if it persists.",
+      "Engage in activities that reinforce your positive emotions, such as journaling or sharing your internship experience with friends."
+    ],
+    "areas_of_concern": [
+      "Audio sadness probability indicates potential underlying sadness not reflected in other modalities.",
+      "Mismatch between modalities may suggest situational factors affecting mood."
+    ],
+    "positive_indicators": [
+      "High joy and optimism in text",
+      "Positive key phrases about internship and supportive people",
+      "Low depression probability (97%)"
+    ],
+    "distribution_insights": "The video classifier shows a perfectly neutral distribution, while the audio classifier is overwhelmingly confident in sadness (99.999988%). The text classifier is highly confident in joy (98.76%). This divergence suggests a mixed emotional state: the individual may feel generally positive in self\u2011report but may have underlying sadness in spontaneous speech. The high confidence values across modalities (\u22650.99) indicate strong signals, but the conflicting emotions warrant a cautious approach."
+  },
+  "summary": {
+    "mental_health_score": 92,
+    "depression_score": 3,
+    "anxiety_score": 5,
+    "stress_score": 4,
+    "risk_level": "low",
+    "confidence": 0.996,
+    "video_emotion": "neutral",
+    "audio_emotion": "happy",
+    "text_emotion": "joy",
+    "depression_level": "not depression",
+    "total_intervals": 2
+  }
+}
