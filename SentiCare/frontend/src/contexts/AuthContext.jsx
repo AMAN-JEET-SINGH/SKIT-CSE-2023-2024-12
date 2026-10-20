@@ -11,14 +11,30 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Check for existing auth on mount
     const storedToken = localStorage.getItem("token");
     const storedUser = localStorage.getItem("user");
 
     if (storedToken && storedUser) {
-      setToken(storedToken);
-      setUser(JSON.parse(storedUser));
+      try {
+        const parsedUser = JSON.parse(storedUser);
+
+        if (!parsedUser || typeof parsedUser !== "object" || Array.isArray(parsedUser)) {
+          throw new Error("Invalid stored user data");
+        }
+
+        setToken(storedToken);
+        setUser(parsedUser);
+      } catch {
+        // Clear an invalid session instead of crashing the app.
+        localStorage.removeItem("token");
+        localStorage.removeItem("user");
+      }
+    } else {
+      // Remove incomplete sessions.
+      localStorage.removeItem("token");
+      localStorage.removeItem("user");
     }
+
     setLoading(false);
   }, []);
 
