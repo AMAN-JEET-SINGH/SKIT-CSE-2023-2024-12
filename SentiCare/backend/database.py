@@ -15,15 +15,25 @@ class Database:
         if not mongodb_uri:
             raise ValueError("MONGODB_URI not found in environment variables")
         
-        cls.client = AsyncIOMotorClient(mongodb_uri)
-        print("Connected to MongoDB Atlas")
+        cls.client = AsyncIOMotorClient(mongodb_uri, serverSelectionTimeoutMS=10000)
+        try:
+            # Motor connects lazily, so ping to verify the connection for real
+            await cls.client.admin.command("ping")
+        except Exception as e:
+            cls.client.close()
+            cls.client = None
+            print(f"[MongoDB] Connection FAILED: {type(e).__name__}: {e}")
+            print("[MongoDB] Check MONGODB_URI in backend/.env and that your IP "
+                  "is allowed in MongoDB Atlas Network Access")
+            raise
+        print(f"[MongoDB] Connected successfully (database: {cls.client.dep_app_db.name})")
     
     @classmethod
     async def close_db(cls):
         """Close MongoDB connection"""
         if cls.client:
             cls.client.close()
-            print("Closed MongoDB connection")
+            print("[MongoDB] Connection closed")
     
     @classmethod
     def get_database(cls):
