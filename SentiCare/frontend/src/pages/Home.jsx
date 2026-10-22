@@ -9,6 +9,7 @@ import Illustration6 from "../assets/illustration_6.svg";
 import CommunityIllustration from "../assets/Illustration_11.svg";
 
 import LoginModal from "../components/LoginModal";
+import ThemeToggle from "../components/ThemeToggle";
 
 const LandingPage = () => {
   const [showLogin, setShowLogin] = useState(false);
@@ -65,6 +66,7 @@ const LandingPage = () => {
           >
             Resources
           </button>
+          <ThemeToggle compact />
         </div>
       </nav>
 
